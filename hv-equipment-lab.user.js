@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         HV Equipment Lab
 // @namespace    hv-equipment-lab
-// @version      1.0.0
+// @version      1.0.2
 // @description  Compare equipment and preview Peerless, Soulbind, Forging, Item World, and Charms.
 // @match        https://hentaiverse.org/equip/*
 // @match        https://hentaiverse.org/isekai/equip/*
@@ -2608,11 +2608,11 @@
   }
 
   function mountPreview(panel, analysis, settings, world, shortcut, readPlayerLevel) {
-    const { item, model, result, header, name, bound } = analysis;
+    const { item, model, result, header, bound } = analysis;
     if (!item || !model || (bound && !result.tier) ||
         (!bound && result.level == null && !/\bLevel\s*:?\s*Unassigned\b/i.test(header))) return;
     const original = panel.querySelector('.eq');
-    const quality = name.split(/\s/, 1)[0].toLowerCase();
+    const quality = item.quality ?? '';
     const [sourceForge, sourceIW, cap] = result.tier?.slice(1).map(Number) ??
       [0, 0, upgradeCaps[quality.replace(/\+$/, '')] ?? 10];
     const controls = document.createElement('div');
@@ -2656,14 +2656,18 @@
     toggle.title = `Toggle preview (${shortcut})`;
     toggle.setAttribute('aria-keyshortcuts', shortcut);
     toggle.setAttribute('aria-pressed', 'false');
-    const qualityButton = quality === 'legendary' ? actionButton('Preview Peerless') : null;
+    const presets = quality === 'legendary' ? qualityPreviews
+      : quality === 'peerless' ? qualityPreviews.slice(1) : [];
+    const firstPreset = presets[0];
+    const qualityButton = firstPreset ? actionButton(`Preview ${firstPreset.quality}`) : null;
+    if (qualityButton) qualityButton.title = `Preview ${firstPreset.quality} (Base ${firstPreset.base})`;
     const titleChanges = [];
-    const qualityPrefix = /(^|\()(\s*)Legendary(?=\s|$)/gi;
+    const qualityPrefix = /(^|\()(\s*)(?:Legendary|Peerless)(?=\s|$)/gi;
     if (qualityButton) {
       const walker = document.createTreeWalker(panel.firstElementChild, NodeFilter.SHOW_TEXT);
       for (let node = walker.nextNode(); node; node = walker.nextNode()) {
-        const legendary = node.data;
-        if (legendary.search(qualityPrefix) !== -1) titleChanges.push({ node, legendary });
+        const originalTitle = node.data;
+        if (originalTitle.search(qualityPrefix) !== -1) titleChanges.push({ node, originalTitle });
       }
     }
     const useLevel = actionButton('Use my level');
@@ -2718,18 +2722,18 @@
     charmDetails.className = 'hv-equip-lab-charms';
     const baseDetails = panel.querySelector('.hv-equip-lab-bases');
     const originalBaseText = baseDetails?.textContent;
-    const capFor = index => Math.max(cap, qualityPreviews[index]?.cap ?? cap);
+    const capFor = index => Math.max(cap, presets[index]?.cap ?? cap);
 
     function setQualityPreview(index) {
-      const preset = qualityPreviews[index];
+      const preset = presets[index];
       const limit = capFor(index);
       for (const field of [forge, iw]) {
         field.max = limit;
         if (field.valueAsNumber > limit) field.value = limit;
       }
       const equipmentQuality = preset?.equipmentQuality ?? preset?.quality;
-      for (const { node, legendary } of titleChanges) {
-        node.data = equipmentQuality ? legendary.replace(qualityPrefix, `$1$2${equipmentQuality}`) : legendary;
+      for (const { node, originalTitle } of titleChanges) {
+        node.data = equipmentQuality ? originalTitle.replace(qualityPrefix, `$1$2${equipmentQuality}`) : originalTitle;
       }
       if (baseDetails) {
         baseDetails.textContent = preset
@@ -2739,9 +2743,10 @@
           : originalBaseText;
       }
       presetIndex = index;
-      const next = qualityPreviews[index + 1];
-      qualityButton.textContent = index < 0 ? 'Preview Peerless'
-        : next ? `Base ${next.base}` : 'Regular preview';
+      const next = presets[index + 1];
+      qualityButton.textContent = next
+        ? (index < 0 ? `Preview ${next.quality}` : `Base ${next.base}`)
+        : 'Regular preview';
       qualityButton.title = next ? `Preview ${next.quality} (Base ${next.base})` : 'Return to regular preview';
     }
 
@@ -2770,7 +2775,7 @@
       if (forge.valueAsNumber > iw.valueAsNumber) iw.value = forge.value;
       const selection = new Map([...charmFields].flatMap(([type, field]) =>
         field.value === '0' ? [] : [[type, Number(field.value)]]));
-      const preset = qualityPreviews[presetIndex];
+      const preset = presets[presetIndex];
       const playerLevel = level.value === '' ? (preset ? 500 : null) : level.valueAsNumber;
       const next = previewPanel(analysis, playerLevel, forge.valueAsNumber, iw.valueAsNumber, capFor(presetIndex), selection, preset);
       if (preview) preview.replaceWith(next.copy);
@@ -2787,7 +2792,7 @@
 
     toggle.addEventListener('click', () => preview ? restore() : update(true));
     qualityButton?.addEventListener('click', () => {
-      const nextIndex = presetIndex + 1 < qualityPreviews.length ? presetIndex + 1 : -1;
+      const nextIndex = presetIndex + 1 < presets.length ? presetIndex + 1 : -1;
       if (presetIndex < 0 && level.value === '' && !level.validity.badInput) level.value = '500';
       update(true, nextIndex);
     });
