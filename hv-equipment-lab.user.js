@@ -17,7 +17,7 @@
 
   const tierPattern = /\bTier\s*:?\s*(\d+)(?:\+\d+)?\s*\/\s*(\d+)(?:\+\d+)?\s*\/\s*(\d+)/i;
   const currentVersionMarkers = /^(?:Dropped by\b|Rewarded as a Clear Bonus\b|Rewarded from Snowflake's Shrine\b|Transferred from Isekai\b|掉落于|作为竞技场通关奖励给予|作为雪花祭坛献祭奖励给予|从异世界中转移获得)/i;
-  const qualities = /^(?:Flimsy|Crude|Fair|Average|Fine|Superior|Exquisite|Magnificent|Legendary|Peerless\+?|Ultimate)\s+/i;
+  const qualities = /^(Flimsy|Crude|Fair|Average|Fine|Superior|Exquisite|Magnificent|Legendary|Peerless\+?|Ultimate)\s+/i;
   const elements = ['Fire', 'Cold', 'Elec', 'Wind', 'Holy', 'Dark'];
   const nativeStrikes = {
     fiery: 'Fire', arctic: 'Cold', shocking: 'Elec', tempestuous: 'Wind',
@@ -34,6 +34,12 @@
   const number = /^[+-]?\s*(?:\d{1,3}(?:,\d{3})+|\d+)(?:\.(\d+))?/;
   const upgradeCaps = { exquisite: 15, magnificent: 20, legendary: 25, peerless: 30, ultimate: 33 };
   const peerlessBase = 200;
+  // EHWiki, Detailed Equip Characteristics: minimum rolls by quality.
+  const minimumLegacyAffixBase = {
+    crude: 0, fair: 30, average: 60, superior: 90,
+    exquisite: 120, magnificent: 150, legendary: 170, peerless: peerlessBase,
+    'peerless+': 201, ultimate: 250,
+  };
   // The Ultimate reference panel fits Base 225.2 in the curves calibrated through Base 200.
   const abovePeerlessScale = (225.2 - peerlessBase) / (250 - peerlessBase);
   const effectiveBase = base => base <= peerlessBase ? base : peerlessBase + (base - peerlessBase) * abovePeerlessScale;
@@ -1829,7 +1835,9 @@
   const typesByLength = Object.keys(equipmentTypes).sort((a, b) => b.length - a.length);
 
   function parseName(name) {
-    const [, core, suffixText = ''] = /^(.*?)(?: of (.+))?$/i.exec(clean(name).replace(qualities, ''));
+    const normalized = clean(name);
+    const quality = qualities.exec(normalized)?.[1].toLowerCase();
+    const [, core, suffixText = ''] = /^(.*?)(?: of (.+))?$/i.exec(normalized.replace(qualities, ''));
     const lower = core.toLowerCase();
     const type = typesByLength.find(candidate =>
       lower === candidate.toLowerCase() || lower.endsWith(` ${candidate.toLowerCase()}`));
@@ -1838,7 +1846,7 @@
     const suffix = suffixText.toLowerCase().replace(/^the /, '')
       .replace(/^bansheee$/, 'banshee').replace(/^stone-skin$/, 'stoneskin');
     const [category, slot, canonical = type] = equipmentTypes[type];
-    return { type: canonical ?? type, category, slot, prefix, suffix };
+    return { type: canonical ?? type, category, slot, prefix, suffix, quality };
   }
 
   function equipmentName(panel) {
@@ -1876,6 +1884,9 @@
         for (const row of rows) {
           let name = clean(row.children[0]?.textContent);
           if (!name || !row.children[1]) continue;
+          if (group === 'Equipment' && /^(?:Attack|Physical|Slashing|Crushing|Piercing|Void) Damage$/i.test(name)) {
+            name = 'Physical Damage';
+          }
           if (name === 'Lightning') name = 'Elec';
           name = name.replace(/^counter-(parry|resist)$/i, (_, end) => `Counter-${end.toLowerCase()}`);
           const value = clean(row.children[1].textContent);
@@ -1932,8 +1943,11 @@
       if (!native && stat?.base != null) return null;
       const meanBase = baseOverride ?? average;
       const base = baseOverride ?? (avgNative.has(name) ? average : stat?.base);
+      // An optional primary attribute can be absent from the item and supplied
+      // entirely by an affix. In that case the panel has no native Base tooltip.
+      const affixOnlyAttribute = stat && stat.base == null && key.startsWith('Primary Attributes/') && active.length;
       const parts = [];
-      if (native) {
+      if (native && !affixOnlyAttribute) {
         if (native[0] === null || base == null) return null;
         parts.push([base, ...native.map(coefficient => coefficient * loadMultiplier)]);
       }
@@ -2045,6 +2059,8 @@
   function inferLegacyAffixBases(item, stats, model, level, upgrades, sourceCharms) {
     const rows = [];
     const baselines = new Map();
+    const charmCandidates = new Map();
+    const minimum = minimumLegacyAffixBase[item.quality] ?? 0;
     for (const [key, stat] of stats) {
       if (stat.value == null || avgNative.has(key.split('/')[1])) continue;
       const definition = model.terms(key);
@@ -2065,8 +2081,6 @@
       if (!(k2 > 0) || native == null) continue;
       rows.push({ key, stat, selector, scale, k1, k2, native, p: definition.p });
     }
-    if (!rows.length) return [];
-
     const possibleCharms = weapon(item) ? [...meleeCharms, ...magicCharms] : defenseCharms;
     const known = charmEffects(sourceCharms, item, stats, level).modifiers;
     const unresolvedVoid = sourceCharms.get('Hollowforged or Voidseeker');
@@ -2088,10 +2102,13 @@
       if (!Number.isFinite(power) || power < 0) return null;
       const baseAt = value => Math.round(displayedBase(Math.max(0, powerAt(value)) ** (1 / p)));
       const margin = widen ? Math.max(tolerance(stat), Math.abs(stat.value - add) * 0.003) : stat.step / 2;
-      return { key: row.key, base: baseAt(stat.value), min: baseAt(stat.value - margin), max: baseAt(stat.value + margin) };
+      const min = Math.max(minimum, baseAt(stat.value - margin));
+      const max = Math.min(peerlessBase, baseAt(stat.value + margin));
+      if (min > max) return null;
+      return { key: row.key, base: Math.min(max, Math.max(min, baseAt(stat.value))), min, max };
     }
 
-    return [item.prefix, item.suffix].flatMap((affix, i) => {
+    const inferred = [item.prefix, item.suffix].flatMap((affix, i) => {
       const affixRows = rows.filter(row => row.selector.startsWith(i ? 's:' : 'p:'));
       if (!affixRows.length) return [];
       const title = affix.replace(/\b[a-z]/g, letter => letter.toUpperCase());
@@ -2124,6 +2141,11 @@
         matches = selections.map(selection => commonBase(selection, true)).filter(Boolean);
       }
       if (matches.length) {
+        for (const { name } of relevant) {
+          const candidates = charmCandidates.get(name) ?? new Set();
+          for (const { selection } of matches) candidates.add(selection.get(name) ?? 0);
+          charmCandidates.set(name, candidates);
+        }
         const bases = new Set(matches.map(match => match.base));
         if (bases.size === 1) return [`${title} \u2248 ${matches[0].base}`];
         const varying = relevant.filter(({ name }) => new Set(matches.map(({ selection }) => selection.get(name) ?? 0)).size > 1);
@@ -2144,6 +2166,7 @@
         });
       return details.length ? [`${title} (${details.join(', ')})`] : [];
     });
+    return { inferred, charmCandidates, uncertain };
   }
 
   function addedArchmageDamage(level, hands, greater) {
@@ -2312,7 +2335,29 @@
       sourceCharms.set(type, size === 'Greater' ? 2 : 1);
     }
     if (!current && item && result.level != null && result.upgrades != null) {
-      result.inferred = inferLegacyAffixBases(item, stats, model, result.level, result.upgrades, sourceCharms);
+      const { inferred, charmCandidates, uncertain } = inferLegacyAffixBases(
+        item, stats, model, result.level, result.upgrades, sourceCharms);
+      result.inferred = inferred;
+      // Reuse Charm strengths agreed on by the viable affix fits in the preview.
+      for (const [name, candidates] of charmCandidates) {
+        if (candidates.size !== 1) continue;
+        const [quality] = candidates;
+        if (!quality) continue;
+        if (name === 'Voidseeker') {
+          sourceCharms.delete('Hollowforged or Voidseeker');
+          charm.charms = charm.charms.filter(label => !label.startsWith('Hollowforged or Voidseeker '));
+        }
+        sourceCharms.set(name, quality);
+        charm.charms.push(charmLabel(name, quality));
+      }
+      const { modifiers } = charmEffects(sourceCharms, item, stats, result.level);
+      for (const [key, offset] of charm.offsets ?? []) {
+        const candidates = uncertain.filter(candidate => candidate.keys.includes(key));
+        if (offset === null && candidates.length &&
+            candidates.every(({ name }) => charmCandidates.get(name)?.size === 1)) {
+          charm.offsets.set(key, modifiers.get(key)?.add ?? 0);
+        }
+      }
     }
     return { result, charm, sourceCharms, item, model, eq: eq.cloneNode(true), header, name, bound };
   }
