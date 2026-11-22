@@ -1,0 +1,368 @@
+category	subtype	slot	equipment_type	attribute_group	attribute	unit	base	level	value	step	value_min	value_max	value_min_at_k3	value_max_at_k3	eligible_count	equipment_ids
+Cloth Armor	Cotton	Body	Cotton Robe	Damage Mitigation	Crushing		200	500	3.62	0.01	3.615	3.625	3.615	3.625	3	Persistent:312484977 | Persistent:314058860 | Persistent:317949620
+Cloth Armor	Cotton	Body	Cotton Robe	Equipment	Attack Accuracy		200	500	53.14	0.01	53.1351853824256	53.14292314915259	53.135897582427845	53.14243363648909	3	Persistent:312484977 | Persistent:314058860 | Persistent:317949620
+Cloth Armor	Cotton	Body	Cotton Robe	Equipment	Evade		200	500	63.42	0.01	63.416777600426855	63.42004409923166	63.417220894566576	63.419603570267405	3	Persistent:312484977 | Persistent:314058860 | Persistent:317949620
+Cloth Armor	Cotton	Body	Cotton Robe	Equipment	Magic Accuracy		200	500	49.15	0.01	49.14962333813121	49.157144209033106	49.15051373891244	49.15677360128324	3	Persistent:312484977 | Persistent:314058860 | Persistent:317949620
+Cloth Armor	Cotton	Body	Cotton Robe	Equipment	Magical Mitigation	%	200	500	6.03	0.01	6.024656228832507	6.0346481824970475	6.025237019427998	6.0340279357303634	2	Persistent:312484977 | Persistent:314058860
+Cloth Armor	Cotton	Body	Cotton Robe	Equipment	Physical Mitigation	%	200	500	6.33	0.01	6.32849595289032	6.332726678291194	6.329002488955501	6.331864857566827	3	Persistent:312484977 | Persistent:314058860 | Persistent:317949620
+Cloth Armor	Cotton	Body	Cotton Robe	Equipment	Resist		200	500	109.5	0.1	109.48797484864501	109.49799195678744	109.48860386823007	109.49697003666728	3	Persistent:312484977 | Persistent:314058860 | Persistent:317949620
+Cloth Armor	Cotton	Feet	Cotton Shoes	Damage Mitigation	Crushing		200	500	2.41	0.01	2.4050000000000002	2.415	2.4050000000000002	2.415	7	Persistent:311444255 | Persistent:311496338 | Persistent:311944405 | Persistent:312485971 | Persistent:316593477 | Persistent:316648670 | Persistent:317079240
+Cloth Armor	Cotton	Feet	Cotton Shoes	Equipment	Attack Accuracy		200	500	35.43	0.01	35.425	35.42796965628255	35.425	35.42763660575309	7	Persistent:311444255 | Persistent:311496338 | Persistent:311944405 | Persistent:312485971 | Persistent:316593477 | Persistent:316648670 | Persistent:317079240
+Cloth Armor	Cotton	Feet	Cotton Shoes	Equipment	Evade		200	500	42.28	0.01	42.276468726461054	42.285000000000004	42.276770185466646	42.285000000000004	7	Persistent:311444255 | Persistent:311496338 | Persistent:311944405 | Persistent:312485971 | Persistent:316593477 | Persistent:316648670 | Persistent:317079240
+Cloth Armor	Cotton	Feet	Cotton Shoes	Equipment	Magic Accuracy		200	500	32.77	0.01	32.765	32.772399718113654	32.765	32.77209163201152	7	Persistent:311444255 | Persistent:311496338 | Persistent:311944405 | Persistent:312485971 | Persistent:316593477 | Persistent:316648670 | Persistent:317079240
+Cloth Armor	Cotton	Feet	Cotton Shoes	Equipment	Magical Mitigation	%	200	500	4.02	0.01	4.015	4.024139309509388	4.015	4.023581294548058	6	Persistent:311496338 | Persistent:311944405 | Persistent:312485971 | Persistent:316593477 | Persistent:316648670 | Persistent:317079240
+Cloth Armor	Cotton	Feet	Cotton Shoes	Equipment	Physical Mitigation	%	200	500	4.22	0.01	4.215	4.225	4.215	4.225	5	Persistent:311444255 | Persistent:311496338 | Persistent:311944405 | Persistent:312485971 | Persistent:316648670
+Cloth Armor	Cotton	Feet	Cotton Shoes	Equipment	Resist		200	500	72.99	0.01	72.98944690535589	72.99499999999999	72.98996736808009	72.99499999999999	7	Persistent:311444255 | Persistent:311496338 | Persistent:311944405 | Persistent:312485971 | Persistent:316593477 | Persistent:316648670 | Persistent:317079240
+Cloth Armor	Cotton	Feet	Cotton Shoes	Primary Attributes	Agility		200	500	56.62	0.01	56.614999999999995	56.625	56.614999999999995	56.625	6	Persistent:311444255 | Persistent:311496338 | Persistent:311944405 | Persistent:312485971 | Persistent:316593477 | Persistent:316648670
+Cloth Armor	Cotton	Feet	Cotton Shoes	Primary Attributes	Intelligence		200	500	75.37	0.01	75.36500000000001	75.375	75.36500000000001	75.375	6	Persistent:311444255 | Persistent:311496338 | Persistent:311944405 | Persistent:312485971 | Persistent:316593477 | Persistent:316648670
+Cloth Armor	Cotton	Feet	Cotton Shoes	Primary Attributes	Wisdom		200	500	75.37	0.01	75.36500000000001	75.375	75.36500000000001	75.375	6	Persistent:311444255 | Persistent:311496338 | Persistent:311944405 | Persistent:312485971 | Persistent:316593477 | Persistent:316648670
+Cloth Armor	Cotton	Hands	Cotton Gloves	Damage Mitigation	Crushing		200	500	2.71	0.01	2.705	2.715	2.705	2.715	2	Persistent:317416418 | Persistent:318316710
+Cloth Armor	Cotton	Hands	Cotton Gloves	Equipment	Attack Accuracy		200	500	39.86	0.01	39.848546663428245	39.86113430972789	39.84940444559063	39.86069802769226	2	Persistent:317416418 | Persistent:318316710
+Cloth Armor	Cotton	Hands	Cotton Gloves	Equipment	Evade		200	500	47.56	0.01	47.56098752631612	47.56649322660099	47.562933821420486	47.56596799378431	2	Persistent:317416418 | Persistent:318316710
+Cloth Armor	Cotton	Hands	Cotton Gloves	Equipment	Magic Accuracy		200	500	36.86	0.01	36.85581182828343	36.86830229610616	36.85764368264325	36.86789877076112	2	Persistent:317416418 | Persistent:318316710
+Cloth Armor	Cotton	Hands	Cotton Gloves	Equipment	Magical Mitigation	%	200	500	4.53	0.01	4.519248992536423	4.529938744257273	4.521248589871095	4.529216860301849	2	Persistent:317416418 | Persistent:318316710
+Cloth Armor	Cotton	Hands	Cotton Gloves	Equipment	Physical Mitigation	%	200	500	4.75	0.01	4.744114059604796	4.755513054830284	4.744649598843953	4.752542671204329	2	Persistent:317416418 | Persistent:318316710
+Cloth Armor	Cotton	Hands	Cotton Gloves	Equipment	Resist		200	500	82.12	0.01	82.11476406281709	82.12733906180027	82.11624725987218	82.1264322055093	2	Persistent:317416418 | Persistent:318316710
+Cloth Armor	Cotton	Head	Cotton Cap	Damage Mitigation	Crushing		200	500	3.01	0.01	3.005	3.0149999999999997	3.005	3.0149999999999997	2	Persistent:316169797 | Persistent:317577146
+Cloth Armor	Cotton	Head	Cotton Cap	Equipment	Attack Accuracy		200	500	44.28	0.01	44.27805602882056	44.285782320743124	44.27945942802557	44.28498000997221	2	Persistent:316169797 | Persistent:317577146
+Cloth Armor	Cotton	Head	Cotton Cap	Equipment	Evade		200	500	52.85	0.01	52.84760912148426	52.84975946051681	52.84832001832808	52.848911014907095	2	Persistent:316169797 | Persistent:317577146
+Cloth Armor	Cotton	Head	Cotton Cap	Equipment	Magic Accuracy		200	500	40.96	0.01	40.95683541647886	40.9706184911033	40.95829473986051	40.969958225984676	2	Persistent:316169797 | Persistent:317577146
+Cloth Armor	Cotton	Head	Cotton Cap	Equipment	Magical Mitigation	%	200	500	5.03	0.01	5.021095605367476	5.031566036340326	5.0218955469545	5.030314003756514	2	Persistent:316169797 | Persistent:317577146
+Cloth Armor	Cotton	Head	Cotton Cap	Equipment	Physical Mitigation	%	200	500	5.28	0.01	5.269818607490942	5.281323192228988	5.270658174667417	5.280009011181863	2	Persistent:316169797 | Persistent:317577146
+Cloth Armor	Cotton	Head	Cotton Cap	Equipment	Resist		200	500	91.24	0.01	91.23685533010556	91.24747453658104	91.23808263241067	91.24600965727113	2	Persistent:316169797 | Persistent:317577146
+Cloth Armor	Gossamer	Body	Gossamer Robe	Equipment	Evade		200	500	84.42	0.01	84.4146540910074	84.42750376814554	84.41541360596752	84.42648956392932	1	Persistent:313351328
+Cloth Armor	Gossamer	Body	Gossamer Robe	Equipment	Magic Accuracy		200	500	49.16	0.01	49.15056843578274	49.16371983029033	49.15172226935944	49.16313300000816	1	Persistent:313351328
+Cloth Armor	Gossamer	Body	Gossamer Robe	Equipment	Magical Mitigation	%	200	500	6.03	0.01	6.02837149192525	6.040428460076971	6.029107524696462	6.039387332922713	1	Persistent:313351328
+Cloth Armor	Gossamer	Body	Gossamer Robe	Equipment	Physical Mitigation	%	200	500	6.33	0.01	6.326449536709277	6.338594290446728	6.327221963257753	6.337501771484004	1	Persistent:313351328
+Cloth Armor	Gossamer	Body	Gossamer Robe	Equipment	Resist		200	500	151.0	0.1	150.9085694403957	151.02250100080875	150.90992722971953	151.0206868093377	1	Persistent:313351328
+Cloth Armor	Gossamer	Feet	Gossamer Shoes	Equipment	Evade		200	500	56.28	0.01	56.275	56.279786339063364	56.275	56.27891788675433	4	Persistent:313047084 | Persistent:314004588 | Persistent:316049833 | Persistent:316953494
+Cloth Armor	Gossamer	Feet	Gossamer Shoes	Equipment	Magic Accuracy		200	500	32.77	0.01	32.76814330358629	32.775000000000006	32.769140016099854	32.775000000000006	4	Persistent:313047084 | Persistent:314004588 | Persistent:316049833 | Persistent:316953494
+Cloth Armor	Gossamer	Feet	Gossamer Shoes	Equipment	Magical Mitigation	%	200	500	4.02	0.01	4.015	4.0227118851956325	4.015	4.021839087431752	4	Persistent:313047084 | Persistent:314004588 | Persistent:316049833 | Persistent:316953494
+Cloth Armor	Gossamer	Feet	Gossamer Shoes	Equipment	Physical Mitigation	%	200	500	4.22	0.01	4.217883084855957	4.225	4.218531346533949	4.225	4	Persistent:313047084 | Persistent:314004588 | Persistent:316049833 | Persistent:316953494
+Cloth Armor	Gossamer	Feet	Gossamer Shoes	Equipment	Resist		200	500	100.64	0.01	100.63389656730229	100.64799488384423	100.6350596613891	100.6464417865558	4	Persistent:313047084 | Persistent:314004588 | Persistent:316049833 | Persistent:316953494
+Cloth Armor	Gossamer	Feet	Gossamer Shoes	Primary Attributes	Agility		200	500	75.37	0.01	75.36500000000001	75.375	75.36500000000001	75.375	3	Persistent:313047084 | Persistent:314004588 | Persistent:316953494
+Cloth Armor	Gossamer	Feet	Gossamer Shoes	Primary Attributes	Intelligence		200	500	75.37	0.01	75.36500000000001	75.375	75.36500000000001	75.375	2	Persistent:313047084 | Persistent:314004588
+Cloth Armor	Gossamer	Feet	Gossamer Shoes	Primary Attributes	Wisdom		200	500	75.37	0.01	75.36500000000001	75.375	75.36500000000001	75.375	2	Persistent:313047084 | Persistent:316953494
+Cloth Armor	Gossamer	Hands	Gossamer Gloves	Equipment	Evade		200	500	63.31	0.01	63.305	63.315000000000005	63.305	63.315000000000005	1	Persistent:313898084
+Cloth Armor	Gossamer	Hands	Gossamer Gloves	Equipment	Magic Accuracy		200	500	36.87	0.01	36.864999999999995	36.875	36.864999999999995	36.875	1	Persistent:313898084
+Cloth Armor	Gossamer	Hands	Gossamer Gloves	Equipment	Magical Mitigation	%	200	500	4.52	0.01	4.515	4.5249999999999995	4.515	4.5249999999999995	1	Persistent:313898084
+Cloth Armor	Gossamer	Hands	Gossamer Gloves	Equipment	Physical Mitigation	%	200	500	4.75	0.01	4.745	4.755	4.745	4.755	1	Persistent:313898084
+Cloth Armor	Gossamer	Hands	Gossamer Gloves	Equipment	Resist		200	500	113.2	0.1	113.15	113.25	113.15	113.25	1	Persistent:313898084
+Cloth Armor	Gossamer	Hands	Gossamer Gloves	Primary Attributes	Agility		200	500	84.79	0.01	84.78500000000001	84.795	84.78500000000001	84.795	1	Persistent:313898084
+Cloth Armor	Gossamer	Hands	Gossamer Gloves	Primary Attributes	Wisdom		200	500	84.79	0.01	84.78500000000001	84.795	84.78500000000001	84.795	1	Persistent:313898084
+Cloth Armor	Ironsilk	Hands	Ironsilk Gloves	Damage Mitigation	Crushing		200	500	2.71	0.01	2.705	2.715	2.705	2.715	1	Persistent:317683654
+Cloth Armor	Ironsilk	Hands	Ironsilk Gloves	Damage Mitigation	Piercing		200	500	1.36	0.01	1.3550000000000002	1.365	1.3550000000000002	1.365	1	Persistent:317683654
+Cloth Armor	Ironsilk	Hands	Ironsilk Gloves	Damage Mitigation	Slashing		200	500	2.71	0.01	2.705	2.715	2.705	2.715	1	Persistent:317683654
+Cloth Armor	Ironsilk	Hands	Ironsilk Gloves	Equipment	Attack Accuracy		200	500	39.86	0.01	39.855	39.8571690150559	39.855	39.856437877964616	3	Persistent:317199898 | Persistent:317667673 | Persistent:317683654
+Cloth Armor	Ironsilk	Hands	Ironsilk Gloves	Equipment	Burden		200	500	0	1.0	-0.5	0.5	-0.5	0.5	3	Persistent:317199898 | Persistent:317667673 | Persistent:317683654
+Cloth Armor	Ironsilk	Hands	Ironsilk Gloves	Equipment	Evade		200	500	47.56	0.01	47.561432507858676	47.56487383260608	47.561585932393406	47.56400933113868	3	Persistent:317199898 | Persistent:317667673 | Persistent:317683654
+Cloth Armor	Ironsilk	Hands	Ironsilk Gloves	Equipment	Interference		200	500	2.4	0.1	2.35	2.4499999999999997	2.35	2.4499999999999997	3	Persistent:317199898 | Persistent:317667673 | Persistent:317683654
+Cloth Armor	Ironsilk	Hands	Ironsilk Gloves	Equipment	Magical Mitigation	%	200	500	4.52	0.01	4.521597829859936	4.5249999999999995	4.5224033951469575	4.5249999999999995	2	Persistent:317667673 | Persistent:317683654
+Cloth Armor	Ironsilk	Hands	Ironsilk Gloves	Equipment	Physical Mitigation	%	200	500	4.75	0.01	4.745	4.754789551809997	4.745	4.7544815237454365	2	Persistent:317199898 | Persistent:317683654
+Cloth Armor	Ironsilk	Hands	Ironsilk Gloves	Equipment	Resist		200	500	82.12	0.01	82.11500000000001	82.12368205421842	82.11500800840015	82.12218943922917	3	Persistent:317199898 | Persistent:317667673 | Persistent:317683654
+Cloth Armor	Ironsilk	Hands	Ironsilk Gloves	Primary Attributes	Agility		200	500	63.70	0.01	63.695	63.705000000000005	63.695	63.705000000000005	1	Persistent:317683654
+Cloth Armor	Ironsilk	Hands	Ironsilk Gloves	Primary Attributes	Intelligence		200	500	84.79	0.01	84.78500000000001	84.795	84.78500000000001	84.795	1	Persistent:317683654
+Cloth Armor	Ironsilk	Hands	Ironsilk Gloves	Primary Attributes	Wisdom		200	500	84.79	0.01	84.78500000000001	84.795	84.78500000000001	84.795	1	Persistent:317683654
+Cloth Armor	Phase	Body	Phase Robe	Damage Mitigation	Crushing		200	500	2.72	0.01	2.7150000000000003	2.725	2.7150000000000003	2.725	4	Persistent:313198751 | Persistent:315279747 | Persistent:316732286 | Persistent:317198132
+Cloth Armor	Phase	Body	Phase Robe	Equipment	Attack Accuracy		200	500	53.14	0.01	53.13661193107732	53.14198795180724	53.14017573295825	53.141278029054234	4	Persistent:313198751 | Persistent:315279747 | Persistent:316732286 | Persistent:317198132
+Cloth Armor	Phase	Body	Phase Robe	Equipment	Evade		200	500	84.42	0.01	84.415	84.42120411273758	84.415	84.41991918240213	4	Persistent:313198751 | Persistent:315279747 | Persistent:316732286 | Persistent:317198132
+Cloth Armor	Phase	Body	Phase Robe	Equipment	Magic Accuracy		200	500	65.33	0.01	65.325	65.33471337140698	65.325	65.33260153149045	4	Persistent:313198751 | Persistent:315279747 | Persistent:316732286 | Persistent:317198132
+Cloth Armor	Phase	Body	Phase Robe	Equipment	Magical Mitigation	%	200	500	6.03	0.01	6.025091093795352	6.035	6.026119696225041	6.035	4	Persistent:313198751 | Persistent:315279747 | Persistent:316732286 | Persistent:317198132
+Cloth Armor	Phase	Body	Phase Robe	Equipment	Physical Mitigation	%	200	500	4.76	0.01	4.755	4.7587431293514095	4.755777368765732	4.757835865975589	4	Persistent:313198751 | Persistent:315279747 | Persistent:316732286 | Persistent:317198132
+Cloth Armor	Phase	Body	Phase Robe	Equipment	Resist		200	500	117.79	0.01	117.7768968371884	117.79651696956977	117.77976791615028	117.79268307245447	4	Persistent:313198751 | Persistent:315279747 | Persistent:316732286 | Persistent:317198132
+Cloth Armor	Phase	Body	Phase Robe	Primary Attributes	Agility		200	500	107.4	0.1	107.35000000000001	107.45	107.35000000000001	107.45	2	Persistent:313198751 | Persistent:316732286
+Cloth Armor	Phase	Body	Phase Robe	Primary Attributes	Intelligence		200	500	127.1	0.1	127.05	127.14999999999999	127.05	127.14999999999999	2	Persistent:313198751 | Persistent:316732286
+Cloth Armor	Phase	Body	Phase Robe	Primary Attributes	Wisdom		200	500	127.1	0.1	127.05	127.14999999999999	127.05	127.14999999999999	2	Persistent:313198751 | Persistent:316732286
+Cloth Armor	Phase	Feet	Phase Shoes	Damage Mitigation	Crushing		200	500	1.81	0.01	1.8050000000000002	1.815	1.8050000000000002	1.815	6	Persistent:312638056 | Persistent:314248197 | Persistent:314249032 | Persistent:314423854 | Persistent:315097160 | Persistent:316870118
+Cloth Armor	Phase	Feet	Phase Shoes	Equipment	Attack Accuracy		200	500	35.43	0.01	35.425560779157465	35.4289695144074	35.42659362844647	35.42886225753036	6	Persistent:312638056 | Persistent:314248197 | Persistent:314249032 | Persistent:314423854 | Persistent:315097160 | Persistent:316870118
+Cloth Armor	Phase	Feet	Phase Shoes	Equipment	Evade		200	500	56.28	0.01	56.27693751652841	56.28146603600289	56.27756194480982	56.28108520619076	6	Persistent:312638056 | Persistent:314248197 | Persistent:314249032 | Persistent:314423854 | Persistent:315097160 | Persistent:316870118
+Cloth Armor	Phase	Feet	Phase Shoes	Equipment	Magic Accuracy		200	500	43.55	0.01	43.54911984969065	43.5526174851497	43.549379143922344	43.552328476421415	6	Persistent:312638056 | Persistent:314248197 | Persistent:314249032 | Persistent:314423854 | Persistent:315097160 | Persistent:316870118
+Cloth Armor	Phase	Feet	Phase Shoes	Equipment	Magical Mitigation	%	200	500	4.02	0.01	4.019069729051569	4.0249999999999995	4.0193550926934485	4.0237079987115525	6	Persistent:312638056 | Persistent:314248197 | Persistent:314249032 | Persistent:314423854 | Persistent:315097160 | Persistent:316870118
+Cloth Armor	Phase	Feet	Phase Shoes	Equipment	Physical Mitigation	%	200	500	3.17	0.01	3.168996211211845	3.175	3.1691021839442364	3.175	6	Persistent:312638056 | Persistent:314248197 | Persistent:314249032 | Persistent:314423854 | Persistent:315097160 | Persistent:316870118
+Cloth Armor	Phase	Feet	Phase Shoes	Equipment	Resist		200	500	78.52	0.01	78.52266666666667	78.52499999999999	78.5235379254089	78.52433766608411	6	Persistent:312638056 | Persistent:314248197 | Persistent:314249032 | Persistent:314423854 | Persistent:315097160 | Persistent:316870118
+Cloth Armor	Phase	Feet	Phase Shoes	Primary Attributes	Agility		200	500	71.62	0.01	71.61500000000001	71.625	71.61500000000001	71.625	1	Persistent:316870118
+Cloth Armor	Phase	Feet	Phase Shoes	Primary Attributes	Intelligence		200	500	84.74	0.01	84.735	84.74499999999999	84.735	84.74499999999999	1	Persistent:316870118
+Cloth Armor	Phase	Feet	Phase Shoes	Primary Attributes	Wisdom		200	500	84.74	0.01	84.735	84.74499999999999	84.735	84.74499999999999	1	Persistent:316870118
+Cloth Armor	Phase	Hands	Phase Gloves	Damage Mitigation	Crushing		200	500	2.04	0.01	2.035	2.045	2.035	2.045	4	Persistent:312283851 | Persistent:315548926 | Persistent:317549657 | Persistent:317570972
+Cloth Armor	Phase	Hands	Phase Gloves	Equipment	Attack Accuracy		200	500	39.86	0.01	39.855	39.8621222558681	39.855	39.86200157816272	4	Persistent:312283851 | Persistent:315548926 | Persistent:317549657 | Persistent:317570972
+Cloth Armor	Phase	Hands	Phase Gloves	Equipment	Evade		200	500	63.31	0.01	63.313374568287486	63.315000000000005	63.31352228456478	63.315000000000005	4	Persistent:312283851 | Persistent:315548926 | Persistent:317549657 | Persistent:317570972
+Cloth Armor	Phase	Hands	Phase Gloves	Equipment	Magic Accuracy		200	500	48.99	0.01	48.98693360188177	48.995000000000005	48.98722527320269	48.995000000000005	4	Persistent:312283851 | Persistent:315548926 | Persistent:317549657 | Persistent:317570972
+Cloth Armor	Phase	Hands	Phase Gloves	Equipment	Magical Mitigation	%	200	500	4.52	0.01	4.519220352077941	4.5249999999999995	4.5193714769443245	4.5249999999999995	4	Persistent:312283851 | Persistent:315548926 | Persistent:317549657 | Persistent:317570972
+Cloth Armor	Phase	Hands	Phase Gloves	Equipment	Physical Mitigation	%	200	500	3.57	0.01	3.565	3.5723362857211063	3.565	3.5721676445412776	4	Persistent:312283851 | Persistent:315548926 | Persistent:317549657 | Persistent:317570972
+Cloth Armor	Phase	Hands	Phase Gloves	Equipment	Resist		200	500	88.34	0.01	88.33500000000001	88.34317108412706	88.33500000000001	88.34289589653251	4	Persistent:312283851 | Persistent:315548926 | Persistent:317549657 | Persistent:317570972
+Cloth Armor	Phase	Hands	Phase Gloves	Primary Attributes	Agility		200	500	80.57	0.01	80.565	80.57499999999999	80.565	80.57499999999999	3	Persistent:315548926 | Persistent:317549657 | Persistent:317570972
+Cloth Armor	Phase	Hands	Phase Gloves	Primary Attributes	Intelligence		200	500	95.33	0.01	95.325	95.335	95.325	95.335	3	Persistent:315548926 | Persistent:317549657 | Persistent:317570972
+Cloth Armor	Phase	Hands	Phase Gloves	Primary Attributes	Wisdom		200	500	95.33	0.01	95.325	95.335	95.325	95.335	3	Persistent:315548926 | Persistent:317549657 | Persistent:317570972
+Cloth Armor	Phase	Head	Phase Cap	Damage Mitigation	Crushing		200	500	2.26	0.01	2.255	2.2649999999999997	2.255	2.2649999999999997	6	Persistent:311255233 | Persistent:314461807 | Persistent:315567400 | Persistent:316444360 | Persistent:316668702 | Persistent:318411889
+Cloth Armor	Phase	Head	Phase Cap	Equipment	Attack Accuracy		200	500	44.28	0.01	44.282269994575024	44.285000000000004	44.28343345072838	44.285000000000004	6	Persistent:311255233 | Persistent:314461807 | Persistent:315567400 | Persistent:316444360 | Persistent:316668702 | Persistent:318411889
+Cloth Armor	Phase	Head	Phase Cap	Equipment	Evade		200	500	70.35	0.01	70.34585792708222	70.35380346721873	70.3466600923382	70.35286088662407	6	Persistent:311255233 | Persistent:314461807 | Persistent:315567400 | Persistent:316444360 | Persistent:316668702 | Persistent:318411889
+Cloth Armor	Phase	Head	Phase Cap	Equipment	Magic Accuracy		200	500	54.44	0.01	54.434999999999995	54.4388400382224	54.434999999999995	54.43811279084834	6	Persistent:311255233 | Persistent:314461807 | Persistent:315567400 | Persistent:316444360 | Persistent:316668702 | Persistent:318411889
+Cloth Armor	Phase	Head	Phase Cap	Equipment	Magical Mitigation	%	200	500	5.02	0.01	5.023160382220987	5.0249999999999995	5.023923011176384	5.0249999999999995	6	Persistent:311255233 | Persistent:314461807 | Persistent:315567400 | Persistent:316444360 | Persistent:316668702 | Persistent:318411889
+Cloth Armor	Phase	Head	Phase Cap	Equipment	Physical Mitigation	%	200	500	3.96	0.01	3.961283741368487	3.964759985342615	3.962286632530903	3.964004096354526	6	Persistent:311255233 | Persistent:314461807 | Persistent:315567400 | Persistent:316444360 | Persistent:316668702 | Persistent:318411889
+Cloth Armor	Phase	Head	Phase Cap	Equipment	Resist		200	500	98.15	0.01	98.15238637350339	98.155	98.15350562112451	98.155	6	Persistent:311255233 | Persistent:314461807 | Persistent:315567400 | Persistent:316444360 | Persistent:316668702 | Persistent:318411889
+Cloth Armor	Phase	Head	Phase Cap	Primary Attributes	Agility		200	500	89.52	0.01	89.515	89.52499999999999	89.515	89.52499999999999	2	Persistent:314461807 | Persistent:316444360
+Cloth Armor	Phase	Head	Phase Cap	Primary Attributes	Intelligence		200	500	105.9	0.1	105.85000000000001	105.95	105.85000000000001	105.95	3	Persistent:314461807 | Persistent:316444360 | Persistent:318411889
+Cloth Armor	Phase	Head	Phase Cap	Primary Attributes	Wisdom		200	500	105.9	0.1	105.85000000000001	105.95	105.85000000000001	105.95	3	Persistent:314461807 | Persistent:316444360 | Persistent:318411889
+Cloth Armor	Phase	Legs	Phase Pants	Damage Mitigation	Crushing		200	500	2.49	0.01	2.4850000000000003	2.495	2.4850000000000003	2.495	4	Persistent:311436913 | Persistent:312446050 | Persistent:317368710 | Persistent:318532110
+Cloth Armor	Phase	Legs	Phase Pants	Equipment	Attack Accuracy		200	500	48.71	0.01	48.70924565095085	48.713874911674054	48.711203335188564	48.71312151463897	4	Persistent:311436913 | Persistent:312446050 | Persistent:317368710 | Persistent:318532110
+Cloth Armor	Phase	Legs	Phase Pants	Equipment	Evade		200	500	77.38	0.01	77.38048360717124	77.38499999999999	77.38137794581844	77.38374319769325	4	Persistent:311436913 | Persistent:312446050 | Persistent:317368710 | Persistent:318532110
+Cloth Armor	Phase	Legs	Phase Pants	Equipment	Magic Accuracy		200	500	59.88	0.01	59.876818435085944	59.88476302147618	59.878639715396325	59.88352501727028	4	Persistent:311436913 | Persistent:312446050 | Persistent:317368710 | Persistent:318532110
+Cloth Armor	Phase	Legs	Phase Pants	Equipment	Magical Mitigation	%	200	500	5.53	0.01	5.525	5.5334591864524265	5.525	5.531933962508648	4	Persistent:311436913 | Persistent:312446050 | Persistent:317368710 | Persistent:318532110
+Cloth Armor	Phase	Legs	Phase Pants	Equipment	Physical Mitigation	%	200	500	4.36	0.01	4.355	4.363020227278353	4.355	4.361817619164043	4	Persistent:311436913 | Persistent:312446050 | Persistent:317368710 | Persistent:318532110
+Cloth Armor	Phase	Legs	Phase Pants	Equipment	Resist		200	500	107.97	0.01	107.96731409959287	107.97615890649068	107.96894320154091	107.97395963023438	4	Persistent:311436913 | Persistent:312446050 | Persistent:317368710 | Persistent:318532110
+Cloth Armor	Phase	Legs	Phase Pants	Primary Attributes	Agility		200	500	98.48	0.01	98.47500000000001	98.485	98.47500000000001	98.485	1	Persistent:317368710
+Cloth Armor	Phase	Legs	Phase Pants	Primary Attributes	Wisdom		200	500	116.5	0.1	116.45	116.55	116.45	116.55	1	Persistent:317368710
+Heavy Armor	Plate	Body	Plate Cuirass	Damage Mitigation	Crushing		200	500	6.77	0.01	6.765	6.7749999999999995	6.765	6.7749999999999995	2	Persistent:313932056 | Persistent:316511236
+Heavy Armor	Plate	Body	Plate Cuirass	Damage Mitigation	Piercing		200	500	11.27	0.01	11.264999999999999	11.275	11.264999999999999	11.275	2	Persistent:313932056 | Persistent:316511236
+Heavy Armor	Plate	Body	Plate Cuirass	Damage Mitigation	Slashing		200	500	11.27	0.01	11.264999999999999	11.275	11.264999999999999	11.275	2	Persistent:313932056 | Persistent:316511236
+Heavy Armor	Plate	Body	Plate Cuirass	Equipment	Interference		200	500	14.0	0.1	13.95	14.05	13.95	14.05	2	Persistent:313932056 | Persistent:316511236
+Heavy Armor	Plate	Body	Plate Cuirass	Equipment	Magical Mitigation	%	200	500	11.28	0.01	11.274999999999999	11.285	11.274999999999999	11.283751582470817	2	Persistent:313932056 | Persistent:316511236
+Heavy Armor	Plate	Body	Plate Cuirass	Equipment	Physical Mitigation	%	200	500	15.78	0.01	15.77656444662752	15.785	15.778695109156313	15.785	2	Persistent:313932056 | Persistent:316511236
+Heavy Armor	Plate	Body	Plate Cuirass	Primary Attributes	Dexterity		200	500	84.93	0.01	84.92500000000001	84.935	84.92500000000001	84.935	1	Persistent:313932056
+Heavy Armor	Plate	Body	Plate Cuirass	Primary Attributes	Endurance		200	500	113.1	0.1	113.05	113.14999999999999	113.05	113.14999999999999	1	Persistent:313932056
+Heavy Armor	Plate	Body	Plate Cuirass	Primary Attributes	Strength		200	500	84.93	0.01	84.92500000000001	84.935	84.92500000000001	84.935	1	Persistent:313932056
+Heavy Armor	Plate	Hands	Plate Gauntlets	Damage Mitigation	Crushing		200	500	5.08	0.01	5.075	5.085	5.075	5.085	3	Isekai:541944 | Persistent:313680096 | Persistent:315655086
+Heavy Armor	Plate	Hands	Plate Gauntlets	Damage Mitigation	Piercing		200	500	8.45	0.01	8.444999999999999	8.455	8.444999999999999	8.455	4	Isekai:541944 | Persistent:313680096 | Persistent:315655086 | Persistent:316873113
+Heavy Armor	Plate	Hands	Plate Gauntlets	Damage Mitigation	Slashing		200	500	8.45	0.01	8.444999999999999	8.455	8.444999999999999	8.455	4	Isekai:541944 | Persistent:313680096 | Persistent:315655086 | Persistent:316873113
+Heavy Armor	Plate	Hands	Plate Gauntlets	Equipment	Burden		200	500	5.6	0.1	5.55	5.6499999999999995	5.55	5.6499999999999995	4	Isekai:541944 | Persistent:313680096 | Persistent:315655086 | Persistent:316873113
+Heavy Armor	Plate	Hands	Plate Gauntlets	Equipment	Interference		200	500	16.8	0.1	16.75	16.85	16.75	16.85	4	Isekai:541944 | Persistent:313680096 | Persistent:315655086 | Persistent:316873113
+Heavy Armor	Plate	Hands	Plate Gauntlets	Equipment	Magical Mitigation	%	200	500	8.46	0.01	8.455	8.465000000000002	8.455	8.460708138467242	3	Isekai:541944 | Persistent:313680096 | Persistent:316873113
+Heavy Armor	Plate	Hands	Plate Gauntlets	Equipment	Physical Mitigation	%	200	500	11.84	0.01	11.834999999999999	11.845	11.834999999999999	11.844991393854139	4	Isekai:541944 | Persistent:313680096 | Persistent:315655086 | Persistent:316873113
+Heavy Armor	Plate	Hands	Plate Gauntlets	Primary Attributes	Dexterity		200	500	63.70	0.01	63.695	63.705000000000005	63.695	63.705000000000005	3	Persistent:313680096 | Persistent:315655086 | Persistent:316873113
+Heavy Armor	Plate	Hands	Plate Gauntlets	Primary Attributes	Endurance		200	500	84.79	0.01	84.78500000000001	84.795	84.78500000000001	84.795	3	Persistent:313680096 | Persistent:315655086 | Persistent:316873113
+Heavy Armor	Plate	Hands	Plate Gauntlets	Primary Attributes	Strength		200	500	63.70	0.01	63.695	63.705000000000005	63.695	63.705000000000005	3	Persistent:313680096 | Persistent:315655086 | Persistent:316873113
+Heavy Armor	Plate	Head	Plate Helmet	Damage Mitigation	Crushing		200	500	5.64	0.01	5.635	5.645	5.635	5.645	1	Persistent:314365097
+Heavy Armor	Plate	Head	Plate Helmet	Damage Mitigation	Piercing		200	500	9.39	0.01	9.385	9.395000000000001	9.385	9.395000000000001	1	Persistent:314365097
+Heavy Armor	Plate	Head	Plate Helmet	Damage Mitigation	Slashing		200	500	9.39	0.01	9.385	9.395000000000001	9.385	9.395000000000001	1	Persistent:314365097
+Heavy Armor	Plate	Head	Plate Helmet	Equipment	Burden		200	500	7.0	0.1	6.95	7.05	6.95	7.05	1	Persistent:314365097
+Heavy Armor	Plate	Head	Plate Helmet	Equipment	Interference		200	500	28.0	0.1	27.95	28.05	27.95	28.05	1	Persistent:314365097
+Heavy Armor	Plate	Head	Plate Helmet	Equipment	Physical Mitigation	%	200	500	13.15	0.01	13.145	13.155000000000001	13.145	13.155000000000001	1	Persistent:314365097
+Heavy Armor	Plate	Head	Plate Helmet	Primary Attributes	Dexterity		200	500	70.77	0.01	70.765	70.77499999999999	70.765	70.77499999999999	1	Persistent:314365097
+Heavy Armor	Plate	Head	Plate Helmet	Primary Attributes	Endurance		200	500	94.21	0.01	94.205	94.21499999999999	94.205	94.21499999999999	1	Persistent:314365097
+Heavy Armor	Plate	Head	Plate Helmet	Primary Attributes	Strength		200	500	70.77	0.01	70.765	70.77499999999999	70.765	70.77499999999999	1	Persistent:314365097
+Heavy Armor	Plate	Legs	Plate Greaves	Damage Mitigation	Crushing		200	500	6.20	0.01	6.195	6.205	6.195	6.205	1	Persistent:315453215
+Heavy Armor	Plate	Legs	Plate Greaves	Damage Mitigation	Piercing		200	500	10.33	0.01	10.325	10.335	10.325	10.335	1	Persistent:315453215
+Heavy Armor	Plate	Legs	Plate Greaves	Damage Mitigation	Slashing		200	500	10.33	0.01	10.325	10.335	10.325	10.335	1	Persistent:315453215
+Heavy Armor	Plate	Legs	Plate Greaves	Equipment	Burden		200	500	28.0	0.1	27.95	28.05	27.95	28.05	1	Persistent:315453215
+Heavy Armor	Plate	Legs	Plate Greaves	Equipment	Interference		200	500	7.0	0.1	6.95	7.05	6.95	7.05	1	Persistent:315453215
+Heavy Armor	Plate	Legs	Plate Greaves	Equipment	Magical Mitigation	%	200	500	10.34	0.01	10.334999999999999	10.345	10.334999999999999	10.345	1	Persistent:315453215
+Heavy Armor	Plate	Legs	Plate Greaves	Equipment	Physical Mitigation	%	200	500	14.47	0.01	14.465	14.475000000000001	14.465	14.475000000000001	1	Persistent:315453215
+Heavy Armor	Plate	Legs	Plate Greaves	Primary Attributes	Dexterity		200	500	77.85	0.01	77.845	77.85499999999999	77.845	77.85499999999999	1	Persistent:315453215
+Heavy Armor	Plate	Legs	Plate Greaves	Primary Attributes	Endurance		200	500	103.6	0.1	103.55	103.64999999999999	103.55	103.64999999999999	1	Persistent:315453215
+Heavy Armor	Plate	Legs	Plate Greaves	Primary Attributes	Strength		200	500	77.85	0.01	77.845	77.85499999999999	77.845	77.85499999999999	1	Persistent:315453215
+Heavy Armor	Power	Body	Power Armor	Damage Mitigation	Crushing		200	500	5.42	0.01	5.415	5.425	5.415	5.425	2	Persistent:314054618 | Persistent:314329765
+Heavy Armor	Power	Body	Power Armor	Damage Mitigation	Piercing		200	500	9.02	0.01	9.014999999999999	9.025	9.014999999999999	9.025	2	Persistent:314054618 | Persistent:314329765
+Heavy Armor	Power	Body	Power Armor	Damage Mitigation	Slashing		200	500	9.02	0.01	9.014999999999999	9.025	9.014999999999999	9.025	2	Persistent:314054618 | Persistent:314329765
+Heavy Armor	Power	Body	Power Armor	Equipment	Attack Accuracy		200	500	73.27	0.01	73.25892393796204	73.27227063519722	73.26036100338743	73.27153981791452	1	Persistent:314054618
+Heavy Armor	Power	Body	Power Armor	Equipment	Burden		200	500	15.8	0.1	15.75	15.850000000000001	15.75	15.850000000000001	2	Persistent:314054618 | Persistent:314329765
+Heavy Armor	Power	Body	Power Armor	Equipment	Interference		200	500	17.5	0.1	17.45	17.55	17.45	17.55	2	Persistent:314054618 | Persistent:314329765
+Heavy Armor	Power	Body	Power Armor	Equipment	Magical Mitigation	%	200	500	9.03	0.01	9.024999999999999	9.035	9.024999999999999	9.03475430998901	2	Persistent:314054618 | Persistent:314329765
+Heavy Armor	Power	Body	Power Armor	Equipment	Physical Damage		200	500	638.0	0.1	637.95	638.05	637.95	638.05	1	Persistent:314329765
+Heavy Armor	Power	Body	Power Armor	Equipment	Physical Mitigation	%	200	500	11.84	0.01	11.838651339857831	11.845	11.839879160909108	11.845	2	Persistent:314054618 | Persistent:314329765
+Heavy Armor	Power	Body	Power Armor	Primary Attributes	Dexterity		200	500	113.1	0.1	113.05	113.14999999999999	113.05	113.14999999999999	1	Persistent:314329765
+Heavy Armor	Power	Body	Power Armor	Primary Attributes	Endurance		200	500	84.93	0.01	84.92500000000001	84.935	84.92500000000001	84.935	1	Persistent:314329765
+Heavy Armor	Power	Body	Power Armor	Primary Attributes	Strength		200	500	127.1	0.1	127.05	127.14999999999999	127.05	127.14999999999999	1	Persistent:314329765
+Heavy Armor	Power	Feet	Power Boots	Damage Mitigation	Crushing		200	500	3.61	0.01	3.605	3.6149999999999998	3.605	3.6149999999999998	1	Persistent:314883012
+Heavy Armor	Power	Feet	Power Boots	Damage Mitigation	Piercing		200	500	6.01	0.01	6.005	6.015	6.005	6.015	1	Persistent:314883012
+Heavy Armor	Power	Feet	Power Boots	Damage Mitigation	Slashing		200	500	6.01	0.01	6.005	6.015	6.005	6.015	1	Persistent:314883012
+Heavy Armor	Power	Feet	Power Boots	Equipment	Attack Accuracy		200	500	48.85	0.01	48.84215767330787	48.85488343552819	48.843152856552145	48.85437729705693	1	Persistent:314883012
+Heavy Armor	Power	Feet	Power Boots	Equipment	Attack Crit Damage	x	200	500	0.05	0.01	0.045000000000000005	0.055	0.045000000000000005	0.055	1	Persistent:314883012
+Heavy Armor	Power	Feet	Power Boots	Equipment	Burden		200	500	6.3	0.1	6.25	6.35	6.25	6.35	1	Persistent:314883012
+Heavy Armor	Power	Feet	Power Boots	Equipment	Interference		200	500	5.3	0.1	5.25	5.35	5.25	5.35	1	Persistent:314883012
+Heavy Armor	Power	Feet	Power Boots	Equipment	Physical Damage		200	500	425.3	0.1	425.21739837905466	425.3665977021377	425.244795798051	425.3579379547087	1	Persistent:314883012
+Heavy Armor	Power	Feet	Power Boots	Equipment	Physical Mitigation	%	200	500	7.90	0.01	7.893756684788639	7.906048798252	7.894604294507864	7.904850374059464	1	Persistent:314883012
+Heavy Armor	Power	Hands	Power Gauntlets	Damage Mitigation	Crushing		200	500	4.06	0.01	4.055	4.0649999999999995	4.055	4.0649999999999995	3	Persistent:315155698 | Persistent:315640294 | Persistent:318110171
+Heavy Armor	Power	Hands	Power Gauntlets	Damage Mitigation	Piercing		200	500	6.76	0.01	6.755	6.765	6.755	6.765	3	Persistent:315155698 | Persistent:315640294 | Persistent:318110171
+Heavy Armor	Power	Hands	Power Gauntlets	Damage Mitigation	Slashing		200	500	6.76	0.01	6.755	6.765	6.755	6.765	3	Persistent:315155698 | Persistent:315640294 | Persistent:318110171
+Heavy Armor	Power	Hands	Power Gauntlets	Equipment	Attack Accuracy		200	500	54.95	0.01	54.948384926688384	54.955000000000005	54.94946280798822	54.955000000000005	3	Persistent:315155698 | Persistent:315640294 | Persistent:318110171
+Heavy Armor	Power	Hands	Power Gauntlets	Equipment	Attack Crit Damage	x	200	500	0.06	0.01	0.055	0.065	0.055	0.065	2	Persistent:315155698 | Persistent:318110171
+Heavy Armor	Power	Hands	Power Gauntlets	Equipment	Burden		200	500	4.2	0.1	4.15	4.25	4.15	4.25	3	Persistent:315155698 | Persistent:315640294 | Persistent:318110171
+Heavy Armor	Power	Hands	Power Gauntlets	Equipment	Interference		200	500	21.0	0.1	20.95	21.05	20.95	21.05	3	Persistent:315155698 | Persistent:315640294 | Persistent:318110171
+Heavy Armor	Power	Hands	Power Gauntlets	Equipment	Magical Mitigation	%	200	500	6.78	0.01	6.771524307233857	6.783457451969726	6.772226601765133	6.782464283702797	1	Persistent:315155698
+Heavy Armor	Power	Hands	Power Gauntlets	Equipment	Physical Damage		200	500	478.5	0.1	478.45	478.55	478.4811419825754	478.55	3	Persistent:315155698 | Persistent:315640294 | Persistent:318110171
+Heavy Armor	Power	Hands	Power Gauntlets	Equipment	Physical Mitigation	%	200	500	8.88	0.01	8.875	8.885000000000002	8.875261920155353	8.885000000000002	2	Persistent:315640294 | Persistent:318110171
+Heavy Armor	Power	Hands	Power Gauntlets	Primary Attributes	Dexterity		200	500	84.79	0.01	84.78500000000001	84.795	84.78500000000001	84.795	1	Persistent:318110171
+Heavy Armor	Power	Hands	Power Gauntlets	Primary Attributes	Endurance		200	500	63.70	0.01	63.695	63.705000000000005	63.695	63.705000000000005	1	Persistent:318110171
+Heavy Armor	Power	Hands	Power Gauntlets	Primary Attributes	Strength		200	500	95.33	0.01	95.325	95.335	95.325	95.335	1	Persistent:318110171
+Heavy Armor	Power	Head	Power Helmet	Damage Mitigation	Crushing		200	500	4.51	0.01	4.505	4.515	4.505	4.515	3	Persistent:316113273 | Persistent:317880450 | Persistent:318307103
+Heavy Armor	Power	Head	Power Helmet	Damage Mitigation	Piercing		200	500	7.51	0.01	7.505	7.515	7.505	7.515	3	Persistent:316113273 | Persistent:317880450 | Persistent:318307103
+Heavy Armor	Power	Head	Power Helmet	Damage Mitigation	Slashing		200	500	7.51	0.01	7.505	7.515	7.505	7.515	3	Persistent:316113273 | Persistent:317880450 | Persistent:318307103
+Heavy Armor	Power	Head	Power Helmet	Equipment	Attack Accuracy		200	500	61.06	0.01	61.055	61.064814168694426	61.055	61.06384335816256	3	Persistent:316113273 | Persistent:317880450 | Persistent:318307103
+Heavy Armor	Power	Head	Power Helmet	Equipment	Attack Crit Damage	x	200	500	0.06	0.01	0.055	0.065	0.055	0.065	3	Persistent:316113273 | Persistent:317880450 | Persistent:318307103
+Heavy Armor	Power	Head	Power Helmet	Equipment	Burden		200	500	5.3	0.1	5.25	5.35	5.25	5.35	2	Persistent:317880450 | Persistent:318307103
+Heavy Armor	Power	Head	Power Helmet	Equipment	Interference		200	500	35.0	0.1	34.95	35.05	34.95	35.05	3	Persistent:316113273 | Persistent:317880450 | Persistent:318307103
+Heavy Armor	Power	Head	Power Helmet	Equipment	Magical Mitigation	%	200	500	7.52	0.01	7.515	7.5249999999999995	7.515	7.5249999999999995	2	Persistent:316113273 | Persistent:317880450
+Heavy Armor	Power	Head	Power Helmet	Equipment	Physical Damage		200	500	531.7	0.1	531.6500000000001	531.7194746371637	531.6500000000001	531.7027919014496	2	Persistent:317880450 | Persistent:318307103
+Heavy Armor	Power	Head	Power Helmet	Equipment	Physical Mitigation	%	200	500	9.87	0.01	9.867118820145302	9.875	9.868672303387838	9.875	2	Persistent:316113273 | Persistent:318307103
+Heavy Armor	Power	Head	Power Helmet	Primary Attributes	Dexterity		200	500	94.21	0.01	94.205	94.21499999999999	94.205	94.21499999999999	2	Persistent:316113273 | Persistent:317880450
+Heavy Armor	Power	Head	Power Helmet	Primary Attributes	Endurance		200	500	70.77	0.01	70.765	70.77499999999999	70.765	70.77499999999999	2	Persistent:316113273 | Persistent:317880450
+Heavy Armor	Power	Head	Power Helmet	Primary Attributes	Strength		200	500	105.9	0.1	105.85000000000001	105.95	105.85000000000001	105.95	2	Persistent:316113273 | Persistent:317880450
+Heavy Armor	Power	Legs	Power Leggings	Damage Mitigation	Crushing		200	500	4.97	0.01	4.965	4.975	4.965	4.975	4	Persistent:311732518 | Persistent:313303691 | Persistent:315734610 | Persistent:317790613
+Heavy Armor	Power	Legs	Power Leggings	Damage Mitigation	Piercing		200	500	8.27	0.01	8.264999999999999	8.275	8.264999999999999	8.275	4	Persistent:311732518 | Persistent:313303691 | Persistent:315734610 | Persistent:317790613
+Heavy Armor	Power	Legs	Power Leggings	Damage Mitigation	Slashing		200	500	8.27	0.01	8.264999999999999	8.275	8.264999999999999	8.275	4	Persistent:311732518 | Persistent:313303691 | Persistent:315734610 | Persistent:317790613
+Heavy Armor	Power	Legs	Power Leggings	Equipment	Attack Accuracy		200	500	67.17	0.01	67.16402649877841	67.17574092073926	67.16473986752366	67.17531632326931	2	Persistent:311732518 | Persistent:313303691
+Heavy Armor	Power	Legs	Power Leggings	Equipment	Attack Crit Damage	x	200	500	0.07	0.01	0.065	0.07500000000000001	0.065	0.07500000000000001	2	Persistent:311732518 | Persistent:313303691
+Heavy Armor	Power	Legs	Power Leggings	Equipment	Burden		200	500	21.0	0.1	20.95	21.05	20.95	21.05	4	Persistent:311732518 | Persistent:313303691 | Persistent:315734610 | Persistent:317790613
+Heavy Armor	Power	Legs	Power Leggings	Equipment	Interference		200	500	8.8	0.1	8.75	8.850000000000001	8.75	8.850000000000001	4	Persistent:311732518 | Persistent:313303691 | Persistent:315734610 | Persistent:317790613
+Heavy Armor	Power	Legs	Power Leggings	Equipment	Magical Mitigation	%	200	500	8.28	0.01	8.274999999999999	8.27833859970065	8.274999999999999	8.278195314307302	3	Persistent:313303691 | Persistent:315734610 | Persistent:317790613
+Heavy Armor	Power	Legs	Power Leggings	Equipment	Physical Damage		200	500	584.8	0.1	584.7916098826677	584.8499999999999	584.8260501712379	584.8499999999999	4	Persistent:311732518 | Persistent:313303691 | Persistent:315734610 | Persistent:317790613
+Heavy Armor	Power	Legs	Power Leggings	Equipment	Physical Mitigation	%	200	500	10.86	0.01	10.855283534823915	10.859327955052942	10.855416629603456	10.85843252028428	3	Persistent:311732518 | Persistent:315734610 | Persistent:317790613
+Heavy Armor	Power	Legs	Power Leggings	Primary Attributes	Dexterity		200	500	103.6	0.1	103.55	103.64999999999999	103.55	103.64999999999999	1	Persistent:317790613
+Heavy Armor	Power	Legs	Power Leggings	Primary Attributes	Endurance		200	500	77.85	0.01	77.845	77.85499999999999	77.845	77.85499999999999	1	Persistent:317790613
+Heavy Armor	Power	Legs	Power Leggings	Primary Attributes	Strength		200	500	116.5	0.1	116.45	116.55	116.45	116.55	1	Persistent:317790613
+Heavy Armor	Reactive	Feet	Reactive Sabatons	Damage Mitigation	Crushing		200	500	3.61	0.01	3.605	3.6149999999999998	3.605	3.6149999999999998	1	Persistent:316196189
+Heavy Armor	Reactive	Feet	Reactive Sabatons	Damage Mitigation	Piercing		200	500	9.61	0.01	9.604999999999999	9.615	9.604999999999999	9.615	1	Persistent:316196189
+Heavy Armor	Reactive	Feet	Reactive Sabatons	Damage Mitigation	Slashing		200	500	7.21	0.01	7.205	7.215	7.205	7.215	1	Persistent:316196189
+Heavy Armor	Reactive	Feet	Reactive Sabatons	Equipment	Block		200	500	68.15	0.01	68.1382989134203	68.15218342384769	68.1392485706409	68.15091525133103	1	Persistent:316196189
+Heavy Armor	Reactive	Feet	Reactive Sabatons	Equipment	Burden		200	500	8.4	0.1	8.35	8.450000000000001	8.35	8.450000000000001	1	Persistent:316196189
+Heavy Armor	Reactive	Feet	Reactive Sabatons	Equipment	Interference		200	500	5.3	0.1	5.25	5.35	5.25	5.35	1	Persistent:316196189
+Heavy Armor	Reactive	Feet	Reactive Sabatons	Equipment	Magical Mitigation	%	200	500	7.52	0.01	7.514478896433485	7.528196741545294	7.515846132898043	7.526263106055212	1	Persistent:316196189
+Heavy Armor	Reactive	Feet	Reactive Sabatons	Equipment	Physical Mitigation	%	200	500	10.52	0.01	10.514021408107558	10.529055788694146	10.515934402162957	10.526351375320127	1	Persistent:316196189
+Heavy Armor	Reactive	Head	Reactive Helmet	Damage Mitigation	Crushing		200	500	4.51	0.01	4.505	4.515	4.505	4.515	1	Persistent:314670214
+Heavy Armor	Reactive	Head	Reactive Helmet	Damage Mitigation	Piercing		200	500	12.01	0.01	12.004999999999999	12.015	12.004999999999999	12.015	1	Persistent:314670214
+Heavy Armor	Reactive	Head	Reactive Helmet	Damage Mitigation	Slashing		200	500	9.01	0.01	9.004999999999999	9.015	9.004999999999999	9.015	1	Persistent:314670214
+Heavy Armor	Reactive	Head	Reactive Helmet	Equipment	Block		200	500	85.18	0.01	85.17336005536222	85.18785085978648	85.1745610060516	85.18624716383523	1	Persistent:314670214
+Heavy Armor	Reactive	Head	Reactive Helmet	Equipment	Burden		200	500	7.0	0.1	6.95	7.05	6.95	7.05	1	Persistent:314670214
+Heavy Armor	Reactive	Head	Reactive Helmet	Equipment	Interference		200	500	35.0	0.1	34.95	35.05	34.95	35.05	1	Persistent:314670214
+Heavy Armor	Reactive	Head	Reactive Helmet	Equipment	Magical Mitigation	%	200	500	9.40	0.01	9.393091833556754	9.407681574593138	9.394818688398153	9.40524000696543	1	Persistent:314670214
+Light Armor	Drakehide	Body	Drakehide Breastplate	Damage Mitigation	Crushing		200	500	9.02	0.01	9.014999999999999	9.025	9.014999999999999	9.025	1	Persistent:315431164
+Light Armor	Drakehide	Body	Drakehide Breastplate	Damage Mitigation	Piercing		200	500	4.52	0.01	4.515	4.5249999999999995	4.515	4.5249999999999995	1	Persistent:315431164
+Light Armor	Drakehide	Body	Drakehide Breastplate	Damage Mitigation	Slashing		200	500	9.02	0.01	9.014999999999999	9.025	9.014999999999999	9.025	1	Persistent:315431164
+Light Armor	Drakehide	Body	Drakehide Breastplate	Equipment	Burden		200	500	4.5	0.1	4.45	4.55	4.45	4.55	1	Persistent:315431164
+Light Armor	Drakehide	Body	Drakehide Breastplate	Equipment	Evade		200	500	50.82	0.01	50.81189215256264	50.823524213062356	50.81224022010685	50.823059391877344	1	Persistent:315431164
+Light Armor	Drakehide	Body	Drakehide Breastplate	Equipment	Interference		200	500	3.5	0.1	3.45	3.55	3.45	3.55	1	Persistent:315431164
+Light Armor	Drakehide	Body	Drakehide Breastplate	Equipment	Magical Mitigation	%	200	500	12.03	0.01	12.018867300381908	12.03182720472536	12.020004025115625	12.030220773118275	1	Persistent:315431164
+Light Armor	Drakehide	Body	Drakehide Breastplate	Equipment	Physical Mitigation	%	200	500	11.05	0.01	11.04836802835787	11.061106538526712	11.049412964864045	11.059629712866695	1	Persistent:315431164
+Light Armor	Drakehide	Head	Drakehide Helmet	Damage Mitigation	Crushing		200	500	7.51	0.01	7.505	7.515	7.505	7.515	1	Persistent:315222169
+Light Armor	Drakehide	Head	Drakehide Helmet	Damage Mitigation	Piercing		200	500	3.76	0.01	3.755	3.7649999999999997	3.755	3.7649999999999997	1	Persistent:315222169
+Light Armor	Drakehide	Head	Drakehide Helmet	Damage Mitigation	Slashing		200	500	7.51	0.01	7.505	7.515	7.505	7.515	1	Persistent:315222169
+Light Armor	Drakehide	Head	Drakehide Helmet	Equipment	Burden		200	500	1.5	0.1	1.45	1.55	1.45	1.55	1	Persistent:315222169
+Light Armor	Drakehide	Head	Drakehide Helmet	Equipment	Evade		200	500	42.35	0.01	42.345	42.355000000000004	42.345	42.355000000000004	1	Persistent:315222169
+Light Armor	Drakehide	Head	Drakehide Helmet	Equipment	Interference		200	500	7.0	0.1	6.95	7.05	6.95	7.05	1	Persistent:315222169
+Light Armor	Drakehide	Head	Drakehide Helmet	Equipment	Magical Mitigation	%	200	500	10.02	0.01	10.014999999999999	10.025	10.014999999999999	10.025	1	Persistent:315222169
+Light Armor	Drakehide	Head	Drakehide Helmet	Equipment	Physical Mitigation	%	200	500	9.21	0.01	9.205	9.215000000000002	9.205	9.215000000000002	1	Persistent:315222169
+Light Armor	Drakehide	Head	Drakehide Helmet	Equipment	Resist		200	500	167.3	0.1	167.25	167.35000000000002	167.25	167.35000000000002	1	Persistent:315222169
+Light Armor	Drakehide	Head	Drakehide Helmet	Primary Attributes	Agility		200	500	59.06	0.01	59.055	59.065000000000005	59.055	59.065000000000005	1	Persistent:315222169
+Light Armor	Drakehide	Head	Drakehide Helmet	Primary Attributes	Dexterity		200	500	70.77	0.01	70.765	70.77499999999999	70.765	70.77499999999999	1	Persistent:315222169
+Light Armor	Drakehide	Head	Drakehide Helmet	Primary Attributes	Endurance		200	500	59.06	0.01	59.055	59.065000000000005	59.055	59.065000000000005	1	Persistent:315222169
+Light Armor	Drakehide	Head	Drakehide Helmet	Primary Attributes	Strength		200	500	70.77	0.01	70.765	70.77499999999999	70.765	70.77499999999999	1	Persistent:315222169
+Light Armor	Leather	Feet	Leather Boots	Damage Mitigation	Crushing		200	500	6.01	0.01	6.005	6.015	6.005	6.015	1	Persistent:314974903
+Light Armor	Leather	Feet	Leather Boots	Damage Mitigation	Piercing		200	500	3.01	0.01	3.005	3.0149999999999997	3.005	3.0149999999999997	1	Persistent:314974903
+Light Armor	Leather	Feet	Leather Boots	Equipment	Burden		200	500	2.1	0.1	2.0500000000000003	2.15	2.0500000000000003	2.15	1	Persistent:314974903
+Light Armor	Leather	Feet	Leather Boots	Equipment	Evade		200	500	25.48	0.01	25.471482480767126	25.482584946051738	25.471639291003875	25.482375493023266	1	Persistent:314974903
+Light Armor	Leather	Feet	Leather Boots	Equipment	Interference		200	500	2.1	0.1	2.0500000000000003	2.15	2.0500000000000003	2.15	1	Persistent:314974903
+Light Armor	Leather	Feet	Leather Boots	Equipment	Magical Mitigation	%	200	500	6.42	0.01	6.417770139867243	6.429290476880706	6.418318737791807	6.428514637295845	1	Persistent:314974903
+Light Armor	Leather	Feet	Leather Boots	Equipment	Physical Mitigation	%	200	500	7.89	0.01	7.885854175039417	7.897677199594144	7.886528266373254	7.896724165877291	1	Persistent:314974903
+Light Armor	Leather	Feet	Leather Boots	Equipment	Resist		200	500	133.9	0.1	133.82593429831917	133.9352210667771	133.82675817170212	133.93412019189603	1	Persistent:314974903
+Light Armor	Leather	Head	Leather Helmet	Damage Mitigation	Crushing		200	500	7.51	0.01	7.505	7.515	7.505	7.515	1	Persistent:315577863
+Light Armor	Leather	Head	Leather Helmet	Damage Mitigation	Piercing		200	500	3.76	0.01	3.755	3.7649999999999997	3.755	3.7649999999999997	1	Persistent:315577863
+Light Armor	Leather	Head	Leather Helmet	Damage Mitigation	Slashing		200	500	7.51	0.01	7.505	7.515	7.505	7.515	1	Persistent:315577863
+Light Armor	Leather	Head	Leather Helmet	Equipment	Burden		200	500	1.8	0.1	1.75	1.85	1.75	1.85	1	Persistent:315577863
+Light Armor	Leather	Head	Leather Helmet	Equipment	Evade		200	500	31.85	0.01	31.841128568199327	31.851679579337056	31.841219027669982	31.851558764324526	1	Persistent:315577863
+Light Armor	Leather	Head	Leather Helmet	Equipment	Interference		200	500	14.0	0.1	13.95	14.05	13.95	14.05	1	Persistent:315577863
+Light Armor	Leather	Head	Leather Helmet	Equipment	Magical Mitigation	%	200	500	8.02	0.01	8.018500168321463	8.029377794782274	8.018825286345495	8.028918206781423	1	Persistent:315577863
+Light Armor	Leather	Head	Leather Helmet	Equipment	Physical Mitigation	%	200	500	9.87	0.01	9.865429722510044	9.87648796001817	9.865829726120477	9.875922646556408	1	Persistent:315577863
+Light Armor	Leather	Head	Leather Helmet	Equipment	Resist		200	500	167.3	0.1	167.24476525105507	167.3492725179582	167.2452403872583	167.34863775380379	1	Persistent:315577863
+Light Armor	Shade	Body	Shade Breastplate	Damage Mitigation	Crushing		200	500	6.77	0.01	6.765	6.7749999999999995	6.765	6.7749999999999995	6	Persistent:312454129 | Persistent:314626114 | Persistent:314752549 | Persistent:315548642 | Persistent:316228009 | Persistent:317495332
+Light Armor	Shade	Body	Shade Breastplate	Damage Mitigation	Slashing		200	500	6.77	0.01	6.765	6.7749999999999995	6.765	6.7749999999999995	6	Persistent:312454129 | Persistent:314626114 | Persistent:314752549 | Persistent:315548642 | Persistent:316228009 | Persistent:317495332
+Light Armor	Shade	Body	Shade Breastplate	Equipment	Attack Accuracy		200	500	81.32	0.01	81.31967455638068	81.32499999999999	81.32111756326363	81.32427830377704	6	Persistent:312454129 | Persistent:314626114 | Persistent:314752549 | Persistent:315548642 | Persistent:316228009 | Persistent:317495332
+Light Armor	Shade	Body	Shade Breastplate	Equipment	Burden		200	500	0	1.0	-0.5	0.5	-0.5	0.5	6	Persistent:312454129 | Persistent:314626114 | Persistent:314752549 | Persistent:315548642 | Persistent:316228009 | Persistent:317495332
+Light Armor	Shade	Body	Shade Breastplate	Equipment	Evade		200	500	69.72	0.01	69.71577638607948	69.725	69.71697045351563	69.725	3	Persistent:312454129 | Persistent:315548642 | Persistent:317495332
+Light Armor	Shade	Body	Shade Breastplate	Equipment	Interference		200	500	8.5	0.1	8.45	8.55	8.45	8.55	6	Persistent:312454129 | Persistent:314626114 | Persistent:314752549 | Persistent:315548642 | Persistent:316228009 | Persistent:317495332
+Light Armor	Shade	Body	Shade Breastplate	Equipment	Magical Mitigation	%	200	500	7.53	0.01	7.528011104056687	7.535	7.528833250500851	7.53386521196877	6	Persistent:312454129 | Persistent:314626114 | Persistent:314752549 | Persistent:315548642 | Persistent:316228009 | Persistent:317495332
+Light Armor	Shade	Body	Shade Breastplate	Equipment	Physical Damage		200	500	384.1	0.1	384.05	384.118363298536	384.05589965580896	384.1103955099779	6	Persistent:312454129 | Persistent:314626114 | Persistent:314752549 | Persistent:315548642 | Persistent:316228009 | Persistent:317495332
+Light Armor	Shade	Body	Shade Breastplate	Equipment	Physical Mitigation	%	200	500	10.11	0.01	10.10851610176617	10.113463920530444	10.109472148620409	10.111904699277181	6	Persistent:312454129 | Persistent:314626114 | Persistent:314752549 | Persistent:315548642 | Persistent:316228009 | Persistent:317495332
+Light Armor	Shade	Body	Shade Breastplate	Equipment	Resist		200	500	275.4	0.1	275.34999999999997	275.40453620936717	275.34999999999997	275.402017417826	3	Persistent:314626114 | Persistent:314752549 | Persistent:316228009
+Light Armor	Shade	Body	Shade Breastplate	Primary Attributes	Agility		200	500	84.93	0.01	84.92500000000001	84.935	84.92500000000001	84.935	2	Persistent:314752549 | Persistent:315548642
+Light Armor	Shade	Body	Shade Breastplate	Primary Attributes	Dexterity		200	500	84.93	0.01	84.92500000000001	84.935	84.92500000000001	84.935	2	Persistent:314752549 | Persistent:315548642
+Light Armor	Shade	Body	Shade Breastplate	Primary Attributes	Endurance		200	500	70.87	0.01	70.86500000000001	70.875	70.86500000000001	70.875	2	Persistent:314752549 | Persistent:315548642
+Light Armor	Shade	Body	Shade Breastplate	Primary Attributes	Strength		200	500	70.87	0.01	70.86500000000001	70.875	70.86500000000001	70.875	2	Persistent:314752549 | Persistent:315548642
+Light Armor	Shade	Feet	Shade Boots	Damage Mitigation	Crushing		200	500	4.51	0.01	4.505	4.515	4.505	4.515	4	Persistent:313843876 | Persistent:316907829 | Persistent:317616067 | Persistent:317976424
+Light Armor	Shade	Feet	Shade Boots	Damage Mitigation	Slashing		200	500	4.51	0.01	4.505	4.515	4.505	4.515	4	Persistent:313843876 | Persistent:316907829 | Persistent:317616067 | Persistent:317976424
+Light Armor	Shade	Feet	Shade Boots	Equipment	Attack Accuracy		200	500	54.22	0.01	54.214999999999996	54.225	54.214999999999996	54.225	4	Persistent:313843876 | Persistent:316907829 | Persistent:317616067 | Persistent:317976424
+Light Armor	Shade	Feet	Shade Boots	Equipment	Burden		200	500	0	1.0	-0.5	0.5	-0.5	0.5	4	Persistent:313843876 | Persistent:316907829 | Persistent:317616067 | Persistent:317976424
+Light Armor	Shade	Feet	Shade Boots	Equipment	Evade		200	500	46.48	0.01	46.474999999999994	46.485	46.474999999999994	46.485	1	Persistent:317616067
+Light Armor	Shade	Feet	Shade Boots	Equipment	Interference		200	500	2.6	0.1	2.5500000000000003	2.65	2.5500000000000003	2.65	4	Persistent:313843876 | Persistent:316907829 | Persistent:317616067 | Persistent:317976424
+Light Armor	Shade	Feet	Shade Boots	Equipment	Magical Mitigation	%	200	500	5.02	0.01	5.0190017636760915	5.0249999999999995	5.0190633008004895	5.0249999999999995	4	Persistent:313843876 | Persistent:316907829 | Persistent:317616067 | Persistent:317976424
+Light Armor	Shade	Feet	Shade Boots	Equipment	Physical Damage		200	500	256.1	0.1	256.05	256.12137938007663	256.05	256.1208343309899	4	Persistent:313843876 | Persistent:316907829 | Persistent:317616067 | Persistent:317976424
+Light Armor	Shade	Feet	Shade Boots	Equipment	Physical Mitigation	%	200	500	6.74	0.01	6.735	6.744012971894229	6.735	6.7438962433333245	4	Persistent:313843876 | Persistent:316907829 | Persistent:317616067 | Persistent:317976424
+Light Armor	Shade	Feet	Shade Boots	Equipment	Resist		200	500	183.6	0.1	183.58571688910328	183.65	183.58587195990876	183.65	3	Persistent:313843876 | Persistent:316907829 | Persistent:317976424
+Light Armor	Shade	Feet	Shade Boots	Primary Attributes	Agility		200	500	56.62	0.01	56.614999999999995	56.625	56.614999999999995	56.625	3	Persistent:316907829 | Persistent:317616067 | Persistent:317976424
+Light Armor	Shade	Feet	Shade Boots	Primary Attributes	Dexterity		200	500	56.62	0.01	56.614999999999995	56.625	56.614999999999995	56.625	3	Persistent:316907829 | Persistent:317616067 | Persistent:317976424
+Light Armor	Shade	Feet	Shade Boots	Primary Attributes	Endurance		200	500	47.25	0.01	47.245	47.255	47.245	47.255	3	Persistent:316907829 | Persistent:317616067 | Persistent:317976424
+Light Armor	Shade	Feet	Shade Boots	Primary Attributes	Strength		200	500	47.25	0.01	47.245	47.255	47.245	47.255	3	Persistent:316907829 | Persistent:317616067 | Persistent:317976424
+Light Armor	Shade	Hands	Shade Gauntlets	Damage Mitigation	Crushing		200	500	5.08	0.01	5.075	5.085	5.075	5.085	1	Persistent:315220938
+Light Armor	Shade	Hands	Shade Gauntlets	Damage Mitigation	Slashing		200	500	5.08	0.01	5.075	5.085	5.075	5.085	1	Persistent:315220938
+Light Armor	Shade	Hands	Shade Gauntlets	Equipment	Attack Accuracy		200	500	60.99	0.01	60.985	60.995000000000005	60.985	60.995000000000005	1	Persistent:315220938
+Light Armor	Shade	Hands	Shade Gauntlets	Equipment	Burden		200	500	0	1.0	-0.5	0.5	-0.5	0.5	1	Persistent:315220938
+Light Armor	Shade	Hands	Shade Gauntlets	Equipment	Interference		200	500	10.2	0.1	10.149999999999999	10.25	10.149999999999999	10.25	1	Persistent:315220938
+Light Armor	Shade	Hands	Shade Gauntlets	Equipment	Magical Mitigation	%	200	500	5.65	0.01	5.6450000000000005	5.655	5.6450000000000005	5.655	1	Persistent:315220938
+Light Armor	Shade	Hands	Shade Gauntlets	Equipment	Physical Damage		200	500	288.1	0.1	288.05	288.15000000000003	288.05	288.15000000000003	1	Persistent:315220938
+Light Armor	Shade	Hands	Shade Gauntlets	Equipment	Physical Mitigation	%	200	500	7.58	0.01	7.575	7.585	7.575	7.585	1	Persistent:315220938
+Light Armor	Shade	Hands	Shade Gauntlets	Equipment	Resist		200	500	206.5	0.1	206.45	206.55	206.45	206.55	1	Persistent:315220938
+Light Armor	Shade	Hands	Shade Gauntlets	Primary Attributes	Agility		200	500	63.70	0.01	63.695	63.705000000000005	63.695	63.705000000000005	1	Persistent:315220938
+Light Armor	Shade	Hands	Shade Gauntlets	Primary Attributes	Dexterity		200	500	63.70	0.01	63.695	63.705000000000005	63.695	63.705000000000005	1	Persistent:315220938
+Light Armor	Shade	Hands	Shade Gauntlets	Primary Attributes	Endurance		200	500	53.15	0.01	53.144999999999996	53.155	53.144999999999996	53.155	1	Persistent:315220938
+Light Armor	Shade	Hands	Shade Gauntlets	Primary Attributes	Strength		200	500	53.15	0.01	53.144999999999996	53.155	53.144999999999996	53.155	1	Persistent:315220938
+Light Armor	Shade	Head	Shade Helmet	Damage Mitigation	Crushing		200	500	5.64	0.01	5.635	5.645	5.635	5.645	9	Persistent:311509590 | Persistent:311938428 | Persistent:313583236 | Persistent:314333228 | Persistent:314538021 | Persistent:314998276 | Persistent:315325361 | Persistent:317510110 | Persistent:317879302
+Light Armor	Shade	Head	Shade Helmet	Damage Mitigation	Slashing		200	500	5.64	0.01	5.635	5.645	5.635	5.645	9	Persistent:311509590 | Persistent:311938428 | Persistent:313583236 | Persistent:314333228 | Persistent:314538021 | Persistent:314998276 | Persistent:315325361 | Persistent:317510110 | Persistent:317879302
+Light Armor	Shade	Head	Shade Helmet	Equipment	Attack Accuracy		200	500	67.77	0.01	67.76687580023939	67.7700444260003	67.76708462325675	67.76912508076825	9	Persistent:311509590 | Persistent:311938428 | Persistent:313583236 | Persistent:314333228 | Persistent:314538021 | Persistent:314998276 | Persistent:315325361 | Persistent:317510110 | Persistent:317879302
+Light Armor	Shade	Head	Shade Helmet	Equipment	Burden		200	500	0	1.0	-0.5	0.5	-0.5	0.5	9	Persistent:311509590 | Persistent:311938428 | Persistent:313583236 | Persistent:314333228 | Persistent:314538021 | Persistent:314998276 | Persistent:315325361 | Persistent:317510110 | Persistent:317879302
+Light Armor	Shade	Head	Shade Helmet	Equipment	Evade		200	500	58.10	0.01	58.095	58.104206529754805	58.095	58.10341642213477	5	Persistent:314538021 | Persistent:314998276 | Persistent:315325361 | Persistent:317510110 | Persistent:317879302
+Light Armor	Shade	Head	Shade Helmet	Equipment	Magical Mitigation	%	200	500	6.27	0.01	6.269988148309231	6.2749999999999995	6.271210134612874	6.2749999999999995	9	Persistent:311509590 | Persistent:311938428 | Persistent:313583236 | Persistent:314333228 | Persistent:314538021 | Persistent:314998276 | Persistent:315325361 | Persistent:317510110 | Persistent:317879302
+Light Armor	Shade	Head	Shade Helmet	Equipment	Physical Damage		200	500	320.1	0.1	320.05	320.12807340286435	320.06601354406604	320.1096356123097	9	Persistent:311509590 | Persistent:311938428 | Persistent:313583236 | Persistent:314333228 | Persistent:314538021 | Persistent:314998276 | Persistent:315325361 | Persistent:317510110 | Persistent:317879302
+Light Armor	Shade	Head	Shade Helmet	Equipment	Physical Mitigation	%	200	500	8.43	0.01	8.424999999999999	8.427185201211598	8.424999999999999	8.426426220169846	9	Persistent:311509590 | Persistent:311938428 | Persistent:313583236 | Persistent:314333228 | Persistent:314538021 | Persistent:314998276 | Persistent:315325361 | Persistent:317510110 | Persistent:317879302
+Light Armor	Shade	Head	Shade Helmet	Equipment	Resist		200	500	229.5	0.1	229.45399290115714	229.52938089531233	229.45866201937488	229.52900949819264	6	Persistent:311509590 | Persistent:311938428 | Persistent:313583236 | Persistent:314333228 | Persistent:314998276 | Persistent:315325361
+Light Armor	Shade	Head	Shade Helmet	Primary Attributes	Agility		200	500	70.77	0.01	70.765	70.77499999999999	70.765	70.77499999999999	3	Persistent:311509590 | Persistent:317510110 | Persistent:317879302
+Light Armor	Shade	Head	Shade Helmet	Primary Attributes	Dexterity		200	500	70.77	0.01	70.765	70.77499999999999	70.765	70.77499999999999	3	Persistent:311509590 | Persistent:317510110 | Persistent:317879302
+Light Armor	Shade	Head	Shade Helmet	Primary Attributes	Endurance		200	500	59.06	0.01	59.055	59.065000000000005	59.055	59.065000000000005	3	Persistent:311509590 | Persistent:317510110 | Persistent:317879302
+Light Armor	Shade	Head	Shade Helmet	Primary Attributes	Strength		200	500	59.06	0.01	59.055	59.065000000000005	59.055	59.065000000000005	3	Persistent:311509590 | Persistent:317510110 | Persistent:317879302
+Light Armor	Shade	Legs	Shade Leggings	Damage Mitigation	Crushing		200	500	6.20	0.01	6.195	6.205	6.195	6.205	3	Persistent:314498725 | Persistent:314622988 | Persistent:315586418
+Light Armor	Shade	Legs	Shade Leggings	Damage Mitigation	Slashing		200	500	6.20	0.01	6.195	6.205	6.195	6.205	3	Persistent:314498725 | Persistent:314622988 | Persistent:315586418
+Light Armor	Shade	Legs	Shade Leggings	Equipment	Attack Accuracy		200	500	74.55	0.01	74.545	74.54796657849722	74.545	74.5473219463719	3	Persistent:314498725 | Persistent:314622988 | Persistent:315586418
+Light Armor	Shade	Legs	Shade Leggings	Equipment	Burden		200	500	0	1.0	-0.5	0.5	-0.5	0.5	3	Persistent:314498725 | Persistent:314622988 | Persistent:315586418
+Light Armor	Shade	Legs	Shade Leggings	Equipment	Evade		200	500	63.91	0.01	63.901857906746194	63.91556090015258	63.902738146624	63.91438541503677	1	Persistent:315586418
+Light Armor	Shade	Legs	Shade Leggings	Equipment	Magical Mitigation	%	200	500	6.90	0.01	6.897126438077542	6.905	6.898368282223062	6.905	3	Persistent:314498725 | Persistent:314622988 | Persistent:315586418
+Light Armor	Shade	Legs	Shade Leggings	Equipment	Physical Damage		200	500	352.1	0.1	352.05	352.12127796369	352.05	352.11530245364247	3	Persistent:314498725 | Persistent:314622988 | Persistent:315586418
+Light Armor	Shade	Legs	Shade Leggings	Equipment	Physical Mitigation	%	200	500	9.27	0.01	9.264999999999999	9.274805685098821	9.264999999999999	9.272448234444736	3	Persistent:314498725 | Persistent:314622988 | Persistent:315586418
+Light Armor	Shade	Legs	Shade Leggings	Equipment	Resist		200	500	252.4	0.1	252.44070300105537	252.45000000000002	252.4423618674997	252.45000000000002	3	Persistent:314498725 | Persistent:314622988 | Persistent:315586418
+Light Armor	Shade	Legs	Shade Leggings	Primary Attributes	Agility		200	500	77.85	0.01	77.845	77.85499999999999	77.845	77.85499999999999	1	Persistent:314622988
+Light Armor	Shade	Legs	Shade Leggings	Primary Attributes	Dexterity		200	500	77.85	0.01	77.845	77.85499999999999	77.845	77.85499999999999	1	Persistent:314622988
+Light Armor	Shade	Legs	Shade Leggings	Primary Attributes	Endurance		200	500	64.96	0.01	64.955	64.96499999999999	64.955	64.96499999999999	1	Persistent:314622988
+Light Armor	Shade	Legs	Shade Leggings	Primary Attributes	Strength		200	500	64.96	0.01	64.955	64.96499999999999	64.955	64.96499999999999	1	Persistent:314622988
+One-handed Weapon	Axe		Axe	Equipment	Burden		200	500	7.0	0.1	6.95	7.05	6.95	7.05	8	Persistent:311437579 | Persistent:311474226 | Persistent:312194670 | Persistent:314409692 | Persistent:314778029 | Persistent:315450097 | Persistent:316270979 | Persistent:317324611
+One-handed Weapon	Axe		Axe	Equipment	Interference		200	500	3.5	0.1	3.45	3.55	3.45	3.55	8	Persistent:311437579 | Persistent:311474226 | Persistent:312194670 | Persistent:314409692 | Persistent:314778029 | Persistent:315450097 | Persistent:316270979 | Persistent:317324611
+One-handed Weapon	Club		Club	Equipment	Burden		200	500	8.0	0.1	7.95	8.05	7.95	8.05	3	Persistent:313311555 | Persistent:313346318 | Persistent:317370204
+One-handed Weapon	Club		Club	Equipment	Interference		200	500	3.5	0.1	3.45	3.55	3.45	3.55	2	Persistent:313311555 | Persistent:317370204
+One-handed Weapon	Dagger		Dagger	Equipment	Burden		200	500	3.0	0.1	2.95	3.05	2.95	3.05	5	Persistent:311464955 | Persistent:313814660 | Persistent:314352946 | Persistent:315682723 | Persistent:315950700
+One-handed Weapon	Dagger		Dagger	Equipment	Interference		200	500	3.0	0.1	2.95	3.05	2.95	3.05	5	Persistent:311464955 | Persistent:313814660 | Persistent:314352946 | Persistent:315682723 | Persistent:315950700
+One-handed Weapon	Rapier		Rapier	Equipment	Burden		200	500	6.0	0.1	5.95	6.05	5.95	6.05	7	Persistent:312806316 | Persistent:313196249 | Persistent:313451045 | Persistent:315394154 | Persistent:315702474 | Persistent:316901880 | Persistent:317586915
+One-handed Weapon	Rapier		Rapier	Equipment	Interference		200	500	3.5	0.1	3.45	3.55	3.45	3.55	7	Persistent:312806316 | Persistent:313196249 | Persistent:313451045 | Persistent:315394154 | Persistent:315702474 | Persistent:316901880 | Persistent:317586915
+One-handed Weapon	Shortsword		Shortsword	Equipment	Burden		200	500	5.0	0.1	4.95	5.05	4.95	5.05	4	Isekai:679326 | Persistent:311928008 | Persistent:314468495 | Persistent:317730524
+One-handed Weapon	Shortsword		Shortsword	Equipment	Interference		200	500	3.5	0.1	3.45	3.55	3.45	3.55	3	Isekai:679326 | Persistent:311928008 | Persistent:317730524
+One-handed Weapon	Wakizashi		Wakizashi	Equipment	Burden		200	500	3.0	0.1	2.95	3.05	2.95	3.05	1	Persistent:311337432
+One-handed Weapon	Wakizashi		Wakizashi	Equipment	Interference		200	500	3.0	0.1	2.95	3.05	2.95	3.05	1	Persistent:311337432
+Shield	Force Shield		Force Shield	Equipment	Burden		200	500	4.0	0.1	3.95	4.05	3.95	4.05	3	Persistent:316471463 | Persistent:317801400 | Persistent:317981671
+Shield	Force Shield		Force Shield	Equipment	Interference		200	500	28.0	0.1	27.95	28.05	27.95	28.05	3	Persistent:316471463 | Persistent:317801400 | Persistent:317981671
+Shield	Tower Shield		Tower Shield	Equipment	Interference		200	500	17.5	0.1	17.45	17.55	17.45	17.55	1	Persistent:318026532
+Staff	Ebony Staff		Ebony Staff	Equipment	Burden		200	500	5.0	0.1	4.95	5.05	4.95	5.05	6	Persistent:315300420 | Persistent:316417043 | Persistent:316661831 | Persistent:316726168 | Persistent:316753871 | Persistent:316754816
+Staff	Ebony Staff		Ebony Staff	Equipment	Interference		200	500	0	1.0	-0.5	0.5	-0.5	0.5	6	Persistent:315300420 | Persistent:316417043 | Persistent:316661831 | Persistent:316726168 | Persistent:316753871 | Persistent:316754816
+Staff	Ebony Staff		Ebony Staff	Equipment	Physical Damage		200	500	1061	1.0	1060.5	1060.769498483669	1060.5	1060.767892350778	6	Persistent:315300420 | Persistent:316417043 | Persistent:316661831 | Persistent:316726168 | Persistent:316753871 | Persistent:316754816
+Staff	Katalox Staff		Katalox Staff	Equipment	Burden		200	500	7.0	0.1	6.95	7.05	6.95	7.05	4	Persistent:313431165 | Persistent:315300722 | Persistent:316491953 | Persistent:318546785
+Staff	Katalox Staff		Katalox Staff	Equipment	Interference		200	500	0	1.0	-0.5	0.5	-0.5	0.5	4	Persistent:313431165 | Persistent:315300722 | Persistent:316491953 | Persistent:318546785
+Staff	Katalox Staff		Katalox Staff	Equipment	Physical Damage		200	500	1061	1.0	1060.4484735073781	1060.8516422819225	1060.5381634644168	1060.8292270294126	4	Persistent:313431165 | Persistent:315300722 | Persistent:316491953 | Persistent:318546785
+Staff	Oak Staff		Oak Staff	Equipment	Burden		200	500	5.0	0.1	4.95	5.05	4.95	5.05	2	Persistent:312398673 | Persistent:312670777
+Staff	Oak Staff		Oak Staff	Equipment	Interference		200	500	0	1.0	-0.5	0.5	-0.5	0.5	2	Persistent:312398673 | Persistent:312670777
+Staff	Oak Staff		Oak Staff	Equipment	Physical Damage		200	500	1061	1.0	1060.5	1061.5	1060.5	1061.5	2	Persistent:312398673 | Persistent:312670777
+Staff	Redwood Staff		Redwood Staff	Equipment	Burden		200	500	5.0	0.1	4.95	5.05	4.95	5.05	1	Persistent:311904390
+Staff	Redwood Staff		Redwood Staff	Equipment	Interference		200	500	0	1.0	-0.5	0.5	-0.5	0.5	1	Persistent:311904390
+Staff	Redwood Staff		Redwood Staff	Equipment	Physical Damage		200	500	1061	1.0	1060.5	1060.756013315365	1060.5	1060.7263449235072	2	Persistent:311904390 | Persistent:315384717
+Staff	Willow Staff		Willow Staff	Equipment	Burden		200	500	5.0	0.1	4.95	5.05	4.95	5.05	4	Persistent:313912622 | Persistent:315065626 | Persistent:316057410 | Persistent:316861128
+Staff	Willow Staff		Willow Staff	Equipment	Interference		200	500	0	1.0	-0.5	0.5	-0.5	0.5	4	Persistent:313912622 | Persistent:315065626 | Persistent:316057410 | Persistent:316861128
+Staff	Willow Staff		Willow Staff	Equipment	Physical Damage		200	500	1061	1.0	1060.5	1061.2118300123916	1060.5	1061.2075859532752	4	Persistent:313912622 | Persistent:315065626 | Persistent:316057410 | Persistent:316861128
+Two-handed Weapon	Great Mace		Great Mace	Equipment	Burden		200	500	14.0	0.1	13.95	14.05	13.95	14.05	1	Persistent:317232129
+Two-handed Weapon	Great Mace		Great Mace	Equipment	Interference		200	500	7.0	0.1	6.95	7.05	6.95	7.05	1	Persistent:317232129
+Two-handed Weapon	Katana		Katana	Equipment	Burden		200	500	14.0	0.1	13.95	14.05	13.95	14.05	1	Persistent:317730146
+Two-handed Weapon	Katana		Katana	Equipment	Interference		200	500	7.0	0.1	6.95	7.05	6.95	7.05	1	Persistent:317730146
+Two-handed Weapon	Longsword		Longsword	Equipment	Burden		200	500	17.5	0.1	17.45	17.55	17.45	17.55	6	Persistent:311612300 | Persistent:312964593 | Persistent:313743268 | Persistent:314671887 | Persistent:315827381 | Persistent:316549191
+Two-handed Weapon	Longsword		Longsword	Equipment	Interference		200	500	10.5	0.1	10.45	10.55	10.45	10.55	6	Persistent:311612300 | Persistent:312964593 | Persistent:313743268 | Persistent:314671887 | Persistent:315827381 | Persistent:316549191
